@@ -2,8 +2,6 @@
 
 # 📚 Anki Templates Project
 
-![Anki Logo](https://upload.wikimedia.org/wikipedia/commons/6/6e/Anki-icon.png) ![Anki Add-ons](https://ankiweb.net/shared/ic_tiny.png)
-
 Bem-vindo ao repositório de **Templates para Anki**! Este projeto oferece uma coleção de templates customizados para cartões Anki, incluindo diferentes estilos e funcionalidades para melhorar sua experiência de estudo.
 
 ## 🌟 **Funcionalidades dos Templates**
