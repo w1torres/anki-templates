@@ -1,0 +1,116 @@
+.question-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.association-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ajuste conforme necessário para ocupar a altura do contêiner pai */
+  justify-content: flex-end; /* Alinha o conteúdo ao final do contêiner */
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Alinha os números verticalmente */
+  margin-right: 5px; /* Espaço entre a coluna de números e os botões */
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaço entre os botões */
+  flex-grow: 1; /* Faz com que a coluna de botões ocupe o espaço restante */
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #d4d4d4;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.answer-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.answer {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  background-color: #cafef4;
+  color: #0a0a0a;
+  cursor: pointer;
+}
+
+.answer:hover {
+  background-color: #0056b3;
+}
+
+.selected {
+  background-color: #28a745;
+}
+
+/* Estilo para destaque de respostas corretas */
+.correct {
+  background-color: #d4edda; /* verde suave */
+  border-color: #c3e6cb;
+  color: #155724; /* verde escuro */
+}
+
+/* Estilo para destaque de respostas incorretas */
+.incorrect {
+  background-color: #f8d7da; /* vermelho suave */
+  border-color: #f5c6cb;
+  color: #721c24; /* vermelho escuro */
+}
+
+.order {
+    position: absolute;
+    left: 5px; /* Ajuste conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #333;
+}
+
+.order-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px; /* Espaço entre a coluna de números e os botões */
+}
+
+.order-item {
+  width: 40px; /* Ajuste o tamanho conforme necessário */
+  height: 40px; /* Ajuste o tamanho conforme necessário */
+  text-align: center;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 50%; /* Torna o botão arredondado */
+  line-height: 40px; /* Alinha verticalmente o texto no centro */
+  box-sizing: border-box;
+  margin-bottom: 10px; /* Espaço entre os botões */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}

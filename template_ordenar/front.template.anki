@@ -1,0 +1,87 @@
+<div class="question-box">
+  {{Pergunta}}
+</div>
+
+<div class="association-container">
+
+    <div class="right-column">
+          <button id="right_1" class="item" onclick="clearSelection('right_1')"></span> </button>
+          <button id="right_2" class="item" onclick="clearSelection('right_2')"></span> </button>
+          <button id="right_3" class="item" onclick="clearSelection('right_3')"></span> </button>
+          <button id="right_4" class="item" onclick="clearSelection('right_4')"></span> </button>
+          <button id="right_5" class="item" onclick="clearSelection('right_5')"></span> </button>
+    </div>
+ 
+    <div class="answer-buttons">
+        <button class="answer" onclick="selectAnswer('{{option_1}}')">{{option_1}}</button>
+        <button class="answer" onclick="selectAnswer('{{option_2}}')">{{option_2}}</button>
+        <button class="answer" onclick="selectAnswer('{{option_3}}')">{{option_3}}</button>
+        <button class="answer" onclick="selectAnswer('{{option_4}}')">{{option_4}}</button>
+        <button class="answer" onclick="selectAnswer('{{option_5}}')">{{option_5}}</button>
+    </div>
+
+</div>
+
+<script>
+
+    var nextAvailableIndex = 1; // Mantém o controle do próximo botão da coluna direita disponível
+    var filledValues = {};
+
+    function selectAnswer(answerText) {
+     
+          if (nextAvailableIndex <= 5) {
+              const targetButton = document.getElementById(`right_${nextAvailableIndex}`);
+              if (targetButton) {
+                  targetButton.textContent = answerText;
+                  filledValues[`right_${nextAvailableIndex}`] = answerText; 
+                  nextAvailableIndex++; // Move para o próximo botão disponível
+              }
+          } 
+        // Armazena os valores preenchidos no sessionStorage
+      sessionStorage.setItem('filledValues', JSON.stringify(filledValues));
+    }
+
+    function clearSelection(targetId) {
+        const targetButton = document.getElementById(targetId);
+        if (targetButton) {
+            targetButton.textContent = '';
+            // Atualiza o próximo índice disponível se necessário
+            if (parseInt(targetId.split('_')[1]) < nextAvailableIndex) {
+                nextAvailableIndex = parseInt(targetId.split('_')[1]);
+            }
+        }
+    }
+
+// Função para embaralhar um array
+    function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]]; // Troca os elementos
+        }
+        return array;
+    }
+    
+    // Função para embaralhar os botões
+    function shuffleButtons() {
+        const container = document.querySelector('.answer-buttons');
+        console.log('Answer: ', container)
+        if (!container) return; // Verifica se o container existe
+
+        const buttons = Array.from(container.querySelectorAll('button'));
+        const shuffledButtons = shuffleArray(buttons);
+
+        // Remove todos os botões do container
+        container.innerHTML = '';
+
+        // Adiciona os botões embaralhados de volta ao container
+        shuffledButtons.forEach(button => container.appendChild(button));
+    }
+
+    // Função para inicializar a randomização dos botões
+    function initializeRandom() {
+        console.log('Inicia a função')
+        shuffleButtons();
+    }
+
+    initializeRandom();
+</script>

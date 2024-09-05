@@ -1,0 +1,75 @@
+.question-box {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.association-container {
+  display: absolute;
+  justify-content: space-between;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.answer-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.answer {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #bcf7f5;
+  color: #050505;
+  cursor: pointer;
+}
+
+.answer:hover {
+  background-color: #0056b3;
+}
+
+.selected {
+  background-color: #28a745;
+}
+
+/* Estilo para destaque de respostas corretas */
+.correct {
+  background-color: #d4edda; /* verde suave */
+  border-color: #c3e6cb;
+  color: #155724; /* verde escuro */
+}
+
+/* Estilo para destaque de respostas incorretas */
+.incorrect {
+  background-color: #f8d7da; /* vermelho suave */
+  border-color: #f5c6cb;
+  color: #721c24; /* vermelho escuro */
+}
+
+/* Estilo geral para os botões */
+.item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}

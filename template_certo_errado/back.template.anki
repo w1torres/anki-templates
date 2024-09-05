@@ -1,0 +1,52 @@
+<div class="question-box">
+  {{Pergunta}} <!-- A mesma pergunta do cartão da frente -->
+</div>
+
+<div class="answer-buttons-back">
+  <button id="btnCerto" class="answer" disabled>Certo</button>
+  <button id="btnErrado" class="answer" disabled>Errado</button>
+</div>
+
+<div class="explanation-box">
+    <h3>Explicação:</h3>
+    <p>{{Resposta Certa}}</p>
+</div>
+
+<div class="extra-info-box">
+    <h3>Informações Extras:</h3>
+    <p>{{Extra}}</p>
+</div>
+
+<script>
+    // Verifica se a resposta foi correta
+  function verifica(){
+    console.log('Inicio')
+    let correctAnswer = "{{Resposta}}" // Valor passado: 'C' ou 'E'
+    console.log("Resposta: ", correctAnswer)
+    let userAnswer = sessionStorage.getItem('userAnswer') // Resposta armazenada
+    console.log("Resposta: ", userAnswer)
+
+    const btnCerto = document.getElementById('btnCerto');
+    const btnErrado = document.getElementById('btnErrado');
+
+    if (userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
+      if (userAnswer === 'C') {
+        btnCerto.style.backgroundColor = 'lightgreen';
+        btnErrado.style.backgroundColor = 'lightcoral';
+      } else {
+        btnCerto.style.backgroundColor = 'lightcoral';
+        btnErrado.style.backgroundColor = 'lightgreen';
+      }
+    } else {
+      if (userAnswer === 'C') {
+        btnCerto.style.backgroundColor = 'lightcoral';
+        btnErrado.style.backgroundColor = 'lightgreen';
+      } else {
+        btnCerto.style.backgroundColor = 'lightgreen';
+        btnErrado.style.backgroundColor = 'lightcoral';
+      }
+    }
+  }
+
+  verifica()
+</script>

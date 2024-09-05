@@ -1,0 +1,31 @@
+<div class="question-box">
+  {{Pergunta}} <!-- Pergunta a ser respondida -->
+</div>
+
+<div class="answer-buttons">
+  <button id="btnCerto" class="answer" onclick="selectAnswer('C')">Certo</button>
+  <button id="btnErrado" class="answer" onclick="selectAnswer('E')">Errado</button>
+</div>
+
+<script>
+
+  function selectAnswer(userAnswer) {
+    const btnCerto = document.getElementById('btnCerto');
+    const btnErrado = document.getElementById('btnErrado');
+
+    // Resetar as cores dos botões
+    btnCerto.style.backgroundColor = '';
+    btnErrado.style.backgroundColor = '';
+
+    // Destacar o botão selecionado
+    if (userAnswer === 'C') {
+      btnCerto.style.backgroundColor = 'lightblue';
+    } else {
+      btnErrado.style.backgroundColor = 'lightblue';
+    }
+
+    // Armazenar a resposta do usuário no localStorage
+    sessionStorage.setItem('userAnswer', userAnswer);
+    console.log('User Response: ', userAnswer)
+  }
+</script>

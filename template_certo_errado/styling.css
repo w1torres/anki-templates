@@ -1,0 +1,46 @@
+.answer-buttons{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.answer-buttons-back{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  cursor: not-allowed;
+}
+
+.answer {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.question-box {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 100px;
+}
+
+.explanation-box, .extra-info-box {
+  margin-top: 20px;
+}
+
+.explanation-box h3, .extra-info-box h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.explanation-box p, .extra-info-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}

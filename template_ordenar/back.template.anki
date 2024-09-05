@@ -1,0 +1,79 @@
+<div class="question-box">
+    {{Pergunta}}
+</div>
+
+<div class="association-container">
+
+    <div class="right-column">
+        <button id="right_1" data-id="1" class="item"> </button>
+        <button id="right_2" data-id="2" class="item"> </button>
+        <button id="right_3" data-id="3" class="item"> </button>
+        <button id="right_4" data-id="4" class="item"> </button>
+        <button id="right_5" data-id="5" class="item"> </button>
+    </div>
+</div>
+
+<script>
+
+    // Ao carregar o cartão da frente, inicialize filledValues
+function initializeFrontCard() {
+    // Inicializa ou limpa filledValues
+    filledValues = {};
+    clearAllSelections();
+}
+
+function clearAllSelections() {
+        const buttons = document.querySelectorAll('[id^="right_"]'); // Seleciona todos os botões cujo ID começa com 'right_'
+        buttons.forEach(button => {
+            clearSelection(button.id); // Chama a função clearSelection para cada botão
+        });
+}
+// No cartão do verso
+function initializeBackCard() {
+    // Recupera os valores preenchidos do sessionStorage
+    window.filledValues = JSON.parse(sessionStorage.getItem('filledValues')) || {};
+    console.log("filledValues recuperado:", window.filledValues);
+
+    // Preenche os botões à direita com os valores selecionados
+    Object.keys(window.filledValues).forEach((rightId) => {
+        const rightButton = document.getElementById(rightId);
+        if (rightButton) {
+            rightButton.textContent = window.filledValues[rightId];
+        }
+    });
+
+    const expectedAssociations = {
+        right_1: "{{correct_1}}",
+        right_2: "{{correct_2}}",
+        right_3: "{{correct_3}}",
+        right_4: "{{correct_4}}",
+        right_5: "{{correct_5}}"
+    };
+
+    // Função para verificar as respostas e destacar corretamente
+    function verifyAnswers() {
+        Object.keys(expectedAssociations).forEach((rightId) => {
+            const rightButton = document.getElementById(rightId);
+            const actualText = rightButton.textContent || '';
+            if (actualText === expectedAssociations[rightId]) {
+                rightButton.style.backgroundColor = 'rgba(0, 128, 0, 0.2)'; // Verde suave
+            } else {
+                rightButton.style.backgroundColor = 'rgba(255, 0, 0, 0.2)'; // Vermelho suave
+                rightButton.onclick = function() {
+                    alert(`Resposta correta: ${expectedAssociations[rightId]}`);
+                };
+            }
+        });
+    }
+
+    // Chama a verificação das respostas ao carregar o verso do cartão
+    verifyAnswers();
+}
+
+// Inicialize o cartão da frente
+initializeFrontCard();
+
+// Inicialize o cartão do verso quando necessário
+initializeBackCard();
+
+</script>
