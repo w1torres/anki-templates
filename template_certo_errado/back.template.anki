@@ -1,3 +1,4 @@
+<div class="card">
 <div class="question-box">
   {{Pergunta}} <!-- A mesma pergunta do cartão da frente -->
 </div>
@@ -15,6 +16,7 @@
 <div class="extra-info-box">
     <h3>Informações Extras:</h3>
     <p>{{Extra}}</p>
+</div>
 </div>
 
 <script>

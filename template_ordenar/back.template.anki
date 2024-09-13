@@ -22,6 +22,17 @@ function initializeFrontCard() {
     clearAllSelections();
 }
 
+// Função para limpar a seleção de um botão
+function clearSelection(buttonId) {
+    const button = document.getElementById(buttonId); // Seleciona o botão pelo ID
+    if (button) {
+        // Lógica para limpar a seleção, como remover classes ou atributos
+        button.classList.remove('selected'); // Exemplo de remoção de classe 'selected'
+        button.style.backgroundColor = '';   // Ou redefinir o estilo, se for o caso
+        console.log(`Seleção limpa para o botão com ID: ${buttonId}`);
+    }
+}
+
 function clearAllSelections() {
         const buttons = document.querySelectorAll('[id^="right_"]'); // Seleciona todos os botões cujo ID começa com 'right_'
         buttons.forEach(button => {

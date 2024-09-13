@@ -10,6 +10,8 @@
 .association-container {
   display: flex;
   justify-content: space-between;
+  align-items: stretch; /* Garante que o conteúdo seja alinhado ao topo */
+  gap: 10px; /* Espaço entre as colunas */
 }
 
 .container {
@@ -22,7 +24,7 @@
 .left-column {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Alinha os números verticalmente */
+  justify-content: space-between; /* Alinha os números verticalmente */
   margin-right: 5px; /* Espaço entre a coluna de números e os botões */
 }
 
@@ -34,10 +36,12 @@
 }
 
 .column {
-  flex: 1;
   display: flex;
   flex-direction: column;
-
+  justify-content: space-between; /* Alinha verticalmente as colunas */
+  flex: 1;
+  min-width: 150px; /* Largura mínima */
+  max-width: 300px; /* Largura máxima */
 }
 
 .item {
@@ -47,6 +51,12 @@
   border-radius: 5px;
   background-color: #e0e0e0;
   cursor: pointer;
+  word-wrap: break-word; /* Garante que o texto longo quebre em várias linhas */
+  flex-grow: 1; /* Permite que os itens cresçam de acordo com o tamanho da coluna */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .answer-buttons {

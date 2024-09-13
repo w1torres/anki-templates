@@ -1,18 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px; /* Ajuste conforme necessário para garantir espaço suficiente */
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative; /* Para garantir que os botões sejam posicionados corretamente */
+}
+
 .answer-buttons{
   display: flex;
   justify-content: center;
   position: absolute;
   bottom: 20px;
   width: 100%;
+  box-sizing: border-box; /* Garante que o padding e border não aumentem a largura total */
 }
 
 .answer-buttons-back{
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  cursor: not-allowed;
+  margin: 0 20px; /* Adiciona espaçamento horizontal ao contêiner */
+  z-index: 10; /* Garante que os botões estejam acima de outros elementos */
 }
 
 .answer {
