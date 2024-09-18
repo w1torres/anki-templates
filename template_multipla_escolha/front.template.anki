@@ -4,7 +4,7 @@ wildestorres@gmail.com
 --------------->
 <div id="myCard">
   <div class="front">
-  <div style='font-family:"Arial";font-size:25px;font-weight:bold'>{{Pergunta}}</div>
+  <div class="question-box">{{Pergunta}}</div>
   <br>
   <form id="shuffle">
     {{#option_1 (A)}}<div class="container" id="A"><input type="checkbox" name="radAnswer" class="checkbox" id="A"><div class="option">{{option_1 (A)}}</div></div>{{/option_1 (A)}}

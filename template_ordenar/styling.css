@@ -1,4 +1,18 @@
+.card {
+  background: linear-gradient(to bottom, #f1f6fc, #cbe3fa); /* Azul claro degradê estilo céu */
+  min-height: 100vh; /* Garante que a altura do cartão ocupe toda a tela */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative; /* Para garantir que os botões sejam posicionados corretamente */
+  background-color: #ffffff; /* Fundo branco da área do cartão */
+  border-radius: 15px; /* Bordas arredondadas para todo o cartão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para criar efeito de alto relevo */
+}
+
 .question-box {
+  background: linear-gradient(to bottom, #f1f6fc, #cbe3fa); /* Azul claro degradê estilo céu */
   margin-bottom: 20px;
   padding: 10px;
   border: 1px solid #ddd;
@@ -35,9 +49,9 @@
 .answer {
   margin: 5px;
   padding: 10px;
-  border: 1px solid #007bff;
+  border: 1px solid #25defbd4;
   border-radius: 5px;
-  background-color: #bcf7f5;
+  background-color: linear-gradient(to bottom, #e5edf8, #adeaf6);
   color: #050505;
   cursor: pointer;
 }
@@ -68,8 +82,61 @@
 .item {
   margin: 5px;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #bcf8fade;
   border-radius: 4px;
   background-color: #f8f9fa;
   cursor: pointer;
+}
+
+/* Estilo para o modal em si (sobre o fundo da página) */
+.modal {
+  display: none; /* Inicialmente escondido */
+  position: fixed;
+  z-index: 1000; /* Garante que o modal esteja acima dos outros elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Adiciona rolagem se necessário */
+  background-color: rgba(164, 165, 165, 0.4); /* Fundo semi-transparente */
+}
+
+modal-header #modalTitle {
+  font-size: 18px;
+  font-weight: bold; /* Negrito */
+  color: #333; /* Cor do texto */
+}
+
+/* Estilo para o conteúdo do modal */
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto; /* Centraliza o modal na tela */
+  padding: 20px;
+  border: 1px solid #ddd; /* Cor da borda */
+  border-radius: 10px; /* Bordas arredondadas */
+  width: 80%; /* Largura do modal */
+  max-width: 600px; /* Largura máxima do modal */
+  box-shadow: 0 4px 8px rgba(63, 231, 91, 0.2); /* Sombra suave */
+}
+
+/* Estilo para o botão de fechar */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Muda a cor do botão de fechar ao passar o mouse */
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Estilo para o texto dentro do modal */
+#modalContent {
+  font-size: 16px;
+  line-height: 1.5;
 }

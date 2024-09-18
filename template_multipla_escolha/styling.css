@@ -12,6 +12,9 @@ ashraf.nabil132@gmail.com
   flex-direction: column;
   overflow: auto;
   min-height: 96vh;
+  background: linear-gradient(to bottom, #f1f6fc, #cbe3fa); /* Azul claro degradê estilo céu */
+  border-radius: 15px; /* Bordas arredondadas para todo o cartão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para criar efeito de alto relevo */
 }
 .hidden{display: none;}
 .table_container{
@@ -51,6 +54,19 @@ table td, table th, table td rowspan {
 .front .container:hover {
   cursor: pointer;
 }
+
+.question-box {
+  /*background: linear-gradient(to bottom, #f1f6fc, #cbf7fad7); /* Azul claro degradê estilo céu */
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 15px; /* Bordas arredondadas para todo o cartão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para criar efeito de alto relevo */
+}
+
 .card {
   font-family: arial;
   font-size: 20px;

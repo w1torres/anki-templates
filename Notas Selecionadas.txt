@@ -1,0 +1,89 @@
+#separator:tab
+#html:true
+"<div class=""card"">
+  <div class=""question-box"">
+    Uma metodologia de processo genérica para engenharia de software estabelece cinco atividades metodológicas: comunicação, planejamento, modelagem, construção e entrega. <!-- Pergunta a ser respondida -->
+  </div>
+
+  <div class=""answer-buttons"">
+    <button id=""btnCerto"" class=""answer"" onclick=""selectAnswer('C')"">Certo</button>
+    <button id=""btnErrado"" class=""answer"" onclick=""selectAnswer('E')"">Errado</button>
+  </div>
+</div>
+<script>
+
+  function selectAnswer(userAnswer) {
+    const btnCerto = document.getElementById('btnCerto');
+    const btnErrado = document.getElementById('btnErrado');
+
+    // Resetar as cores dos botões
+    btnCerto.style.backgroundColor = '';
+    btnErrado.style.backgroundColor = '';
+
+    // Destacar o botão selecionado
+    if (userAnswer === 'C') {
+      btnCerto.style.backgroundColor = 'lightblue';
+    } else {
+      btnErrado.style.backgroundColor = 'lightblue';
+    }
+
+    // Armazenar a resposta do usuário no sessionStorage
+    sessionStorage.setItem('userAnswer', userAnswer);
+    console.log('User Response: ', userAnswer)
+  }
+</script>
+"	"<div class=""card"">
+<div class=""question-box"">
+  Uma metodologia de processo genérica para engenharia de software estabelece cinco atividades metodológicas: comunicação, planejamento, modelagem, construção e entrega. <!-- A mesma pergunta do cartão da frente -->
+</div>
+
+<div class=""answer-buttons-back"">
+  <button id=""btnCerto"" class=""answer"" disabled>Certo</button>
+  <button id=""btnErrado"" class=""answer"" disabled>Errado</button>
+</div>
+
+<div class=""explanation-box"">
+    <h3>Explicação:</h3>
+    <p></p>
+</div>
+
+<div class=""extra-info-box"">
+    <h3>Informações Extras:</h3>
+    <p></p>
+</div>
+</div>
+
+<script>
+    // Verifica se a resposta foi correta
+  function verifica(){
+    console.log('Inicio')
+    let correctAnswer = ""C"" // Valor passado: 'C' ou 'E'
+    console.log(""Resposta: "", correctAnswer)
+    let userAnswer = sessionStorage.getItem('userAnswer') // Resposta armazenada
+    console.log(""Resposta: "", userAnswer)
+
+    const btnCerto = document.getElementById('btnCerto');
+    const btnErrado = document.getElementById('btnErrado');
+
+    if (userAnswer.toUpperCase() === correctAnswer.toUpperCase()) {
+      if (userAnswer === 'C') {
+        btnCerto.style.backgroundColor = 'lightgreen';
+        btnErrado.style.backgroundColor = 'lightcoral';
+      } else {
+        btnCerto.style.backgroundColor = 'lightcoral';
+        btnErrado.style.backgroundColor = 'lightgreen';
+      }
+    } else {
+      if (userAnswer === 'C') {
+        btnCerto.style.backgroundColor = 'lightcoral';
+        btnErrado.style.backgroundColor = 'lightgreen';
+      } else {
+        btnCerto.style.backgroundColor = 'lightgreen';
+        btnErrado.style.backgroundColor = 'lightcoral';
+      }
+    }
+  }
+
+  verifica()
+</script>
+"

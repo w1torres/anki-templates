@@ -1,12 +1,11 @@
 <!---------
-      made by Ashraf Nabil
-      ashraf.nabil132@gmail.com
-      01064619425
+      made by Wildes Torres
+      wildestorres@gmail.com
       --------------->
       <div id="myCard">
         <div class="back">
           <div style='font-family: "Arial"; font-size: 25px;'></div>
-          <div style='font-family: "Arial";  font-size: 25px;font-weight:bold;'>{{Pergunta}}</div><br>
+          <div class="question-box">{{Pergunta}}</div><br>
           <form id="shuffle">
           {{#option_1 (A)}}<div class="container" id="A"><div class="circle"></div><div  class="option">{{option_1 (A)}}</div></div>{{/option_1 (A)}}
           {{#option_2 (B)}}<div class="container" id="B"><div class="circle"></div><div  class="option">{{option_2 (B)}}</div></div>{{/option_2 (B)}}

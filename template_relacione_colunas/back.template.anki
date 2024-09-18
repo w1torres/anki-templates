@@ -19,7 +19,37 @@
     </div>
 </div>
 
+  <div id="answerModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div class="modal-header">
+        <strong id="modalTitle">Resposta Correta</strong>
+      </div>
+      <p id="modalContent"></p>
+    </div>
+  </div>
+
 <script>
+// Habilitando polyfills
+if (typeof sessionStorage === "undefined") {
+    (function () {
+        var data = {};
+        window.sessionStorage = {
+            setItem: function (key, value) {
+                data[key] = String(value);
+            },
+            getItem: function (key) {
+                return data.hasOwnProperty(key) ? data[key] : null;
+            },
+            removeItem: function (key) {
+                delete data[key];
+            },
+            clear: function () {
+                data = {};
+            }
+        };
+    })();
+}
 
     // Ao carregar o cartão da frente, inicialize filledValues
 function initializeFrontCard() {
@@ -49,23 +79,23 @@ function clearSelection(buttonId) {
 // No cartão do verso
 function initializeBackCard() {
     // Recupera os valores preenchidos do sessionStorage
-    window.filledValues = JSON.parse(sessionStorage.getItem('filledValues')) || {};
-    console.log("filledValues recuperado:", window.filledValues);
+    filledValues = JSON.parse(sessionStorage.getItem('filledValues')) || {};
+    console.log("filledValues recuperado:", filledValues);
 
     // Preenche os botões à direita com os valores selecionados
-    Object.keys(window.filledValues).forEach((rightId) => {
+    Object.keys(filledValues).forEach((rightId) => {
         const rightButton = document.getElementById(rightId);
         if (rightButton) {
-            rightButton.textContent = window.filledValues[rightId];
+            rightButton.textContent = filledValues[rightId];
         }
     });
 
     const expectedAssociations = {
-        right_1: "{{correct_1}}",
-        right_2: "{{correct_2}}",
-        right_3: "{{correct_3}}",
-        right_4: "{{correct_4}}",
-        right_5: "{{correct_5}}"
+        right_1: "{{option_1}}",
+        right_2: "{{option_2}}",
+        right_3: "{{option_3}}",
+        right_4: "{{option_4}}",
+        right_5: "{{option_5}}"
     };
     
     console.log('Respostas esperadas: ', expectedAssociations)
@@ -79,11 +109,31 @@ function initializeBackCard() {
                 rightButton.style.backgroundColor = 'rgba(0, 128, 0, 0.2)'; // Verde suave
             } else {
                 rightButton.style.backgroundColor = 'rgba(255, 0, 0, 0.2)'; // Vermelho suave
+                 // Adiciona um evento onclick para exibir a resposta correta
                 rightButton.onclick = function() {
-                    alert(`Resposta correta: ${expectedAssociations[rightId]}`);
+                    showModal(expectedAssociations[rightId]);
+                    return false
                 };
             }
         });
+    }
+
+    function showModal(correctAnswer) {
+        const modalContent = document.getElementById('modalContent');
+        if (modalContent) {
+            modalContent.innerText = `${correctAnswer}`;
+            document.getElementById('answerModal').style.display = 'block';
+        }
+
+        const modal = document.getElementById('answerModal');
+        document.getElementById('closeModal').onclick = function() {
+            modal.style.display = 'none';
+        };
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        };
     }
 
     // Chama a verificação das respostas ao carregar o verso do cartão

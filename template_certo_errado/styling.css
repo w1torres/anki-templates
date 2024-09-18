@@ -1,19 +1,24 @@
-.card {
+body, .card {
+  background: linear-gradient(to bottom, #f1f6fc, #cbe3fa); /* Azul claro degradê estilo céu */
+  min-height: 100vh; /* Garante que a altura do cartão ocupe toda a tela */
   display: flex;
   flex-direction: column;
-  min-height: 300px; /* Ajuste conforme necessário para garantir espaço suficiente */
   padding: 20px;
   box-sizing: border-box;
   position: relative; /* Para garantir que os botões sejam posicionados corretamente */
+  background-color: #fff; /* Fundo branco da área do cartão */
+  border-radius: 15px; /* Bordas arredondadas para todo o cartão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para criar efeito de alto relevo */
 }
 
 .answer-buttons{
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: flex;
   bottom: 20px;
   width: 100%;
   box-sizing: border-box; /* Garante que o padding e border não aumentem a largura total */
+  margin-top: 5px;
 }
 
 .answer-buttons-back{
@@ -33,9 +38,12 @@
 }
 
 .question-box {
+  background-color: #f9f9f9; /* Cor de fundo da pergunta */
   text-align: center;
   font-size: 24px;
-  margin-bottom: 100px;
+  margin-bottom: 5px;
+  border-radius: 15px; /* Bordas arredondadas para todo o cartão */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para criar efeito de alto relevo */
 }
 
 .explanation-box, .extra-info-box {

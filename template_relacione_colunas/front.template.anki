@@ -1,14 +1,15 @@
+<div class="card">
 <div class="question-box">
   {{Pergunta}}
 </div>
 
 <div class="association-container">
         <div class="left-column">
-            <button class="item" id="left_1" onclick="selectTarget('right_1')">{{item_1_left}}</button>
-            <button class="item" id="left_2" onclick="selectTarget('right_2')">{{item_2_left}}</button>
-            <button class="item" id="left_3" onclick="selectTarget('right_3')">{{item_3_left}}</button>
-            <button class="item" id="left_4" onclick="selectTarget('right_4')">{{item_4_left}}</button>
-            <button class="item" id="left_5" onclick="selectTarget('right_5')">{{item_5_left}}</button>
+            <button class="item" id="left_1">{{item_1_left}}</button>
+            <button class="item" id="left_2">{{item_2_left}}</button>
+            <button class="item" id="left_3">{{item_3_left}}</button>
+            <button class="item" id="left_4">{{item_4_left}}</button>
+            <button class="item" id="left_5">{{item_5_left}}</button>
         </div>
         <div class="right-column">
           <button id="right_1" class="item" onclick="clearSelection('right_1')"> </button>
@@ -26,7 +27,7 @@
     <button class="answer" onclick="selectAnswer('{{option_4}}')">{{option_4}}</button>
     <button class="answer" onclick="selectAnswer('{{option_5}}')">{{option_5}}</button>
 </div>
-
+</div>
 <script>
 
     var nextAvailableIndex = 1; // Mantém o controle do próximo botão da coluna direita disponível
@@ -81,7 +82,7 @@
         // Adiciona os botões embaralhados de volta ao container
         shuffledButtons.forEach(button => container.appendChild(button));
     }
-
+    
     // Função para inicializar a randomização dos botões
     function initializeRandom() {
         console.log('Inicia a função')

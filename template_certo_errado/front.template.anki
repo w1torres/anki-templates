@@ -1,12 +1,13 @@
-<div class="question-box">
-  {{Pergunta}} <!-- Pergunta a ser respondida -->
-</div>
+<div class="card">
+  <div class="question-box">
+    {{Pergunta}} <!-- Pergunta a ser respondida -->
+  </div>
 
-<div class="answer-buttons">
-  <button id="btnCerto" class="answer" onclick="selectAnswer('C')">Certo</button>
-  <button id="btnErrado" class="answer" onclick="selectAnswer('E')">Errado</button>
+  <div class="answer-buttons">
+    <button id="btnCerto" class="answer" onclick="selectAnswer('C')">Certo</button>
+    <button id="btnErrado" class="answer" onclick="selectAnswer('E')">Errado</button>
+  </div>
 </div>
-
 <script>
 
   function selectAnswer(userAnswer) {
@@ -24,7 +25,7 @@
       btnErrado.style.backgroundColor = 'lightblue';
     }
 
-    // Armazenar a resposta do usuário no localStorage
+    // Armazenar a resposta do usuário no sessionStorage
     sessionStorage.setItem('userAnswer', userAnswer);
     console.log('User Response: ', userAnswer)
   }
