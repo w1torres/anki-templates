@@ -44,8 +44,8 @@ def import_cards_to_anki(file_path):
                 option_1 = fields[2].strip()
                 option_2 = fields[3].strip()
                 option_3 = fields[4].strip()
-                option_4 = fields[5].strip()
-                option_5 = fields[6].strip()
+                option_4 = fields[5].strip() if len(fields) > 5 else ""
+                option_5 = fields[6].strip() if len(fields) > 6 else ""
                 answer = fields[7].strip()
 
                 if not (question and answer):
@@ -57,11 +57,11 @@ def import_cards_to_anki(file_path):
                     "modelName": notetype,  # Nome do tipo da nota fornecido no arquivo .txt
                     "fields": {
                         "Pergunta": question,
-                        "option_1": option_1,
-                        "option_2": option_2,
-                        "option_3": option_3,
-                        "option_4": option_4,
-                        "option_5": option_5,
+                        "option_1 (A)": option_1,
+                        "option_2 (B)": option_2,
+                        "option_3 (C)": option_3,
+                        "option_4 (D)": option_4,
+                        "option_5 (E)": option_5,
                         "Resposta": answer
                     },
                     "tags": []
@@ -76,7 +76,7 @@ def import_cards_to_anki(file_path):
                 # Extrair os campos do cartão
                 question = fields[1].strip()
                 answer = fields[2].strip()
-                correct_answer = fields[3].strip()
+                correct_answer = fields[3].strip() if len(fields) > 3 else ""
                 
                 if not question or not answer or not correct_answer:
                     print(f"Cartão com campos necessários ausentes. Linha ignorada: {line}")
@@ -94,7 +94,6 @@ def import_cards_to_anki(file_path):
                 }
 
             elif notetype == "Ordenar":
-                print(f'{len(fields)}')
                 if len(fields) < 3:
                     print(f"Cartão com número insuficiente de colunas. Linha ignorada.")
                     continue
@@ -125,21 +124,21 @@ def import_cards_to_anki(file_path):
                 }
 
             elif notetype == "Relacione as Colunas":
-                if len(fields) < 12:
+                if len(fields) < 8:
                     print(f"Cartão com número insuficiente de colunas. Linha ignorada: {line}")
                     return None
 
                 question = fields[1].strip()
-                item_1_left = fields[2].strip()
-                item_2_left = fields[3].strip()
-                item_3_left = fields[4].strip()
-                item_4_left = fields[5].strip()
-                item_5_left = fields[6].strip()
-                option_1 = fields[7].strip()
-                option_2 = fields[8].strip()
-                option_3 = fields[9].strip()
-                option_4 = fields[10].strip()
-                option_5 = fields[11].strip()
+                item_1_left = fields[2].strip() if len(fields) > 2 else ""
+                item_2_left = fields[3].strip() if len(fields) > 3 else ""
+                item_3_left = fields[4].strip() if len(fields) > 4 else ""
+                item_4_left = fields[5].strip() if len(fields) > 5 else ""
+                item_5_left = fields[6].strip() if len(fields) > 6 else ""
+                option_1 = fields[7].strip() if len(fields) > 7 else ""
+                option_2 = fields[8].strip() if len(fields) > 8 else ""
+                option_3 = fields[9].strip() if len(fields) > 9 else ""
+                option_4 = fields[10].strip() if len(fields) > 10 else ""
+                option_5 = fields[11].strip() if len(fields) > 11 else ""
 
                 if not question:
                     print(f"Cartão com campos necessários ausentes. Linha ignorada: {option_5}")
@@ -165,14 +164,12 @@ def import_cards_to_anki(file_path):
                 }
 
             elif notetype == "Omissão de Palavras":
-                for index, field in enumerate(fields):
-                    print(f'Indíce:{index} Valor: {field}')
                 if len(fields) < 3:
                     print(f"Cartão com número insuficiente de colunas. Linha ignorada.")
                     return None
 
                 question = fields[1].strip()
-                dica = fields[2].strip()
+                dica = fields[2].strip() if len(fields) > 2 else ""
 
                 if not question:
                     print(f"Cartão com campos necessários ausentes.")
@@ -195,7 +192,7 @@ def import_cards_to_anki(file_path):
 
                 question = fields[1].strip()
                 answer = fields[2].strip()
-                hint = fields[3].strip() if len(fields) > 2 else ""
+                hint = fields[3].strip() if len(fields) > 3 else ""
 
                 if not question or not answer:
                     print(f"Cartão com campos necessários ausentes. Linha ignorada: {line} ")
@@ -224,5 +221,13 @@ def import_cards_to_anki(file_path):
                 print(f"Cartão adicionado: {question}")
 
 if __name__ == "__main__":
-    file_path = input("Digite o caminho do arquivo .txt: ")
-    import_cards_to_anki(file_path)
+    while True:
+        file_path = input("Digite o caminho do arquivo .txt: ")
+        import_cards_to_anki(file_path)
+        
+        # Perguntar ao usuário se deseja continuar
+        continuar = input("Deseja continuar importando mais cartões? (S/N): ").strip().lower()
+        
+        if continuar != 's':
+            print("Encerrando o programa.")
+            break

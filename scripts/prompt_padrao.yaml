@@ -1,0 +1,120 @@
+TIPOS DE NOTAS E INSTRUÇÕES:
+1. Múltipla Escolha:
+   - Apresentar uma pergunta com 5 alternativas (A, B, C, D, E).
+   - Informar qual a letra da alternativa correta.
+   
+   Formato de arquivo .txt:
+   
+   #separator:tab
+   #html:true
+   #guid column:1
+   #notetype column:2
+   #deck column:3
+   #tags column:15
+   Multipla Escolha	{Pergunta sobre o conceito} {Opção A} {Opção B}	{Opção C}	{Opção D}	{Opção E}	{Letra da alternativa Correta}
+
+2. Certo ou Errado:
+   - Apresentar uma afirmação que deve ser julgada como verdadeira ou falsa.
+   - Fornecer a resposta correta com justificativa.
+   
+   Formato de arquivo .txt:
+   
+   #separator:tab
+   #html:true
+   #guid column:1
+   #notetype column:2
+   #deck column:3
+   #tags column:8
+   Certo ou Errado	{Declaração sobre o conceito}	{C ou E}	{Justificativa da resposta}
+
+3. Ordenar:
+   - Apresentar uma lista de itens que devem ser organizados de acordo com uma hierarquia ou ordem.
+   
+   Formato de arquivo .txt:
+   
+   #separator:tab
+   #html:true
+   #guid column:1
+   #notetype column:2
+   #deck column:3
+   #tags column:8
+   Ordenar	{Instrução para ordenar os itens}	{Item 1}	{Item 2}	{Item 3}	{Item 4}	{Item 5}
+
+4. Omissão de Palavras:
+   - Cartões com termos, frases ou conceitos omitidos que o usuário deve preencher.
+   
+   Formato de arquivo .txt:
+   
+   #separator:tab
+   #html:true
+   #guid column:1
+   #notetype column:2
+   #deck column:3
+   #tags column:8
+   Omissão de Palavras	{Texto com omissões}	{{c1::Palavra ou conceito omitido}}	{Dica opcional}
+
+5. Relacione as Colunas:
+   - Apresentar uma coluna com termos e outra com seus respectivos conceitos ou explicações.
+   
+   Formato de arquivo .txt:
+   
+   #separator:tab
+   #html:true
+   #guid column:1
+   #notetype column:2
+   #deck column:3
+   #tags column:8
+   Relacione as Colunas	{Termo 1}	{Termo 2}	{Termo 3}	{Termo 4}	{Termo 5}	{Conceito 1}	{Conceito 2}	{Conceito 3}	{Conceito 4}	{Conceito 5}
+
+6. Customizado:
+   - Criar uma pergunta personalizada com uma resposta e dica opcional.
+   
+   Formato de arquivo .txt:
+   
+   #separator:tab
+   #html:true
+   #guid column:1
+   #notetype column:2
+   #deck column:3
+   #tags column:8
+   Customizado	{Pergunta customizada}	{Resposta}	{Dica opcional}
+
+INSTRUÇÕES ADICIONAIS:
+- Nível de Dificuldade:
+  - Fácil: Perguntas básicas sobre conceitos fundamentais.
+  - Médio: Perguntas envolvendo a aplicação dos conceitos.
+  - Difícil: Perguntas que exigem análise crítica e detalhada.
+
+- Uso de Questões de Provas e Exercícios de Referências:
+  - Ao criar questões de múltipla escolha e certo ou errado, busque perguntas em provas públicas e exercícios dos materiais de referência para garantir a relevância e alinhamento com o conteúdo estudado.
+
+- Formato para Importação no Anki:
+  - Adicione tabulação para separar os campos
+  - Seguir o formato adequado de cada tipo de flashcard para facilitar a criação e estudo no Anki.
+  - Utilize o code_interpreter para gerar os arquivos txt
+  - Por favor, crie as notas conforme o formato solicitado e exporte como um arquivo `.txt` pronto para importação no Anki. Se possível, disponibilize o arquivo para download.
+
+- Orientações para Gerar Conteúdo:
+  - Tópico Específico: Informe o tópico específico do conteúdo.
+  - Quantidade Total de Cartões: Especificar o número total de cartões a serem criados.
+  - Número de Questões de Múltipla Escolha: Definir a quantidade de cartões de múltipla escolha.
+  - Bibliografia Sugerida: Fornecer os livros ou materiais recomendados para o conteúdo.
+  - Número de Questões Certo ou Errado: Definir a quantidade de cartões certo ou errado.
+  - Número de Cartões Relacione as Colunas: Especificar quantos cartões de relacionamento de colunas criar.
+  - Número de Cartões de Hierarquia: Indicar quantos cartões de hierarquia serão gerados.
+  - Termos e Conceitos-Chave: Destaque os termos-chave que devem aparecer nas perguntas.
+
+- Fontes:
+  - Sempre incluir as fontes utilizadas na criação dos flashcards, garantindo a confiabilidade do material e aderência aos livros ou referências recomendadas.
+
+
+Exemplo de prompt:
+Disciplina: Engenharia de Software
+Conteúdos: Abordagem Relacional
+- Total de cartões: 100
+- Múltipla Escolha: 20
+- Certo ou Errado: 20
+- Ordenar: 10
+- Omissão de Palavras: 20
+- Relacione as Colunas: 10
+- Customizado: 20
