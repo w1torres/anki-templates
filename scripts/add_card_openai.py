@@ -239,10 +239,9 @@ if __name__ == "__main__":
             thread = threading.Thread(target=start_import_thread, args=(topic, deck_name))
             thread.start()
             time.sleep(1)  # Aguarda um segundo antes de aceitar um novo tópico
-
-        # Espera todas as threads terminarem antes de perguntar ao usuário se deseja continuar
-        thread.join()  # Aguarda todas as threads finalizarem
-
+            # Espera todas as threads terminarem antes de perguntar ao usuário se deseja continuar
+            thread.join()  # Aguarda todas as threads finalizarem
+       
         continuar = input("Deseja continuar gerando mais cartões? (S/N): ").strip().lower()
         
         if continuar != 's':
