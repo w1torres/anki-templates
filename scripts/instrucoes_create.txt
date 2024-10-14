@@ -70,4 +70,79 @@ Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA
 Tópico: Orientação a objetos
 Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 2. ARQUITETURA, ENGENHARIA E SUSTENTAÇÃO TECNOLÓGICA::ARQUITETURA TECNOLÓGICA::Orientação a objetos
 
+Reconhecimento do Tópico e Subtópicos:
 
+O agente deve identificar o tópico principal e os subtópicos a partir do texto de entrada.
+Para tópicos complexos com subdivisões numeradas (como 2, 2.1, 3, 4.1), o agente deve reconhecer e organizar esses tópicos de forma estruturada, considerando os números como subtópicos ou categorias dentro de um tópico principal.
+Estrutura da Resposta:
+
+O nome do baralho deve seguir este formato:
+
+CONHECIMENTOS ESPECÍFICOS - [Órgão]::CARGO: [Nome do Cargo]::[Área]::[Subtópico]::[Detalhamento]
+Com Detalhamento: Subtópicos que incluem conceitos técnicos detalhados ou metodologias (ex: "Protocolo OAuth2").
+
+Sem Detalhamento: Subtópicos genéricos que não fornecem informações adicionais.
+
+Exemplos de Entrada e Saída:
+
+Entrada:
+
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO: Políticas de segurança da informação. 2 Procedimentos de segurança, conceitos gerais de gerenciamento. 3 Normas ABNT NBR ISO/IEC 27001:2022 e ABNT NBR ISO/IEC 27002:2022. 3 Confiabilidade, integridade e disponibilidade. 
+4 Mecanismos de segurança. 4.1 Controle de acesso. Protocolo OAuth2. SSO (Single sign-on) 5 Gerência de riscos. 5.1 Ameaça, vulnerabilidade e impacto. 6 Ciclo de Vida de Desenvolvimento Seguro (SDL – Security Development Lifecycle), OWASP Top 10 (https://owasp.org/www-project-topten/). 7 Análise estática e dinâmica de código (SAST – Static Application Security Testing e DAST – Dynamic Application Security Testing).
+Saída:
+
+Tópico: Políticas de segurança da informação
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Políticas de segurança da informação
+
+Tópico: Procedimentos de segurança, conceitos gerais de gerenciamento
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Procedimentos de segurança
+
+Tópico: Normas ABNT NBR ISO/IEC 27001:2022 e ABNT NBR ISO/IEC 27002:2022
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Normas ABNT NBR ISO/IEC 27001:2022 e ABNT NBR ISO/IEC 27002:2022
+
+Tópico: Confiabilidade, integridade e disponibilidade
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Confiabilidade, integridade e disponibilidade
+
+Tópico: Controle de acesso
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Controle de acesso
+
+Tópico: Protocolo OAuth2
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Controle de acesso::Protocolo OAuth2
+
+Tópico: SSO (Single sign-on)
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Controle de acesso::SSO (Single sign-on)
+
+Tópico: Gerência de riscos
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Gerência de riscos
+
+Tópico: Ameaça, vulnerabilidade e impacto
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Gerência de riscos::Ameaça, vulnerabilidade e impacto
+
+Tópico: Ciclo de Vida de Desenvolvimento Seguro (SDL – Security Development Lifecycle)
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Ciclo de Vida de Desenvolvimento Seguro (SDL)
+
+Tópico: OWASP Top 10
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Ciclo de Vida de Desenvolvimento Seguro (SDL)::OWASP Top 10
+
+Tópico: Análise estática de código (SAST)
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Análise de código::Análise estática (SAST)
+
+Tópico: Análise dinâmica de código (DAST)
+
+Baralho: CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::SEGURANÇA DA INFORMAÇÃO::Análise de código::Análise dinâmica (DAST)
+
+Verificação de Erros:
+
+O agente deve verificar se o formato de cada baralho está correto e se o detalhamento foi incluído ou omitido conforme necessário.

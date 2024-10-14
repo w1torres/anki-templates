@@ -334,7 +334,8 @@ if __name__ == "__main__":
 
         # Coleta prompts e gera os baralhos automaticamente
         while True:
-            user_prompt = read_prompt('user_prompt.txt')
+            file_path = input("Digite o caminho do arquivo com o prompt: ")
+            user_prompt = read_prompt(file_path)
 
             # Gerar tópicos e baralhos a partir do arquivo de instruções
             deck_info_list = generate_deck_info(user_prompt)

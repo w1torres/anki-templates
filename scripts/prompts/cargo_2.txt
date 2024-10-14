@@ -1,0 +1,9 @@
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 2. ARQUITETURA, ENGENHARIA E SUSTENTAÇÃO TECNOLÓGICA::COMPUTAÇÃO EM NUVEM E VIRTUALIZAÇÃO: VMware vCloud Director, VMware vRealize Automation, 
+VMware vRealize Log Insight, VMware vRealize Operations, VMware vRealize Orchestrator, Zonas de disponibilidade
+
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 2. ARQUITETURA, ENGENHARIA E SUSTENTAÇÃO TECNOLÓGICA::REDES DE COMPUTADORES: Padrões IEEE 802.1, 
+Padrões IEEE 802.11 a/b/g/n/ac, Padrões IEEE 802.3, Sistemas de nomes, VLANs
+
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 2. ARQUITETURA, ENGENHARIA E SUSTENTAÇÃO TECNOLÓGICA::SEGURANÇA DA INFORMAÇÃO: IDS (Intrusion Detection System),
+IPS (Intrusion Prevention System), Políticas de segurança da informação, Procedimentos de segurança; conceitos gerais de gerenciamento, Proteção contra softwares maliciosos, Segurança de redes de computadores, 
+SIEM (Security Information and Event Management), Vulnerabilidades e ataques a sistemas computacionais
