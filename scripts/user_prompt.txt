@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 2. ARQUITETURA, ENGENHARIA E SUSTENTAÇÃO TECNOLÓGICA::COMPUTAÇÃO EM NUVEM E VIRTUALIZAÇÃO:Modelo, PaaS, Privada, Pública, Recuperação de desastres, Recursos, Regiões, SaaS, Subscrições, Tipologia, VMware NSX, VMware vCenter Serve
