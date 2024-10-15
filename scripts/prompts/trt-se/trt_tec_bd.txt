@@ -1,0 +1,7 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-SE::TECNOLOGIA DA INFORMAÇÃO::Banco de Dados: Modelo Entidade x Relacionamento; Normalização de dados: conceitos; Comandos SQL: DML - Linguagem de manipulação de Dados; 
+DDL - Linguagem de Definição de Dados; DCL - Linguagem de Controle de Dados; Gerência de Transações; Linguagens SQL e PL/SQL; PostgreSQL 12 e 13; Oracle 11 e 
+CONHECIMENTOS ESPECÍFICOS - TRT-SE::TECNOLOGIA DA INFORMAÇÃO::Desenvolvimento de aplicações web e mobile: HTML5; CSS3; jQuery; Bootstrap 5; 
+Web Services REST; JavaScript; TypeScript; Angular 12; Python; React; ReactNative; Node.js; JSP; JSF; ASP; .Net; Conceitos, utilização e escrita XML - criação e declaração, definições de elementos e atributos; Definição e utilização de XML Schema; Servidor de aplicações; 
+Servidor web; Ambientes internet, extranet, intranet e Portal (finalidades, características físicas e lógicas, aplicações e serviços). 
+CONHECIMENTOS ESPECÍFICOS - TRT-SE::TECNOLOGIA DA INFORMAÇÃO::Virtualização: VMWare e Hyper-V: fundamentos, configuração, administração e alta disponibilidade. Virtualização de Desktop: Remote Desktop Services. Computação em Nuvem: fundamentos; modelos de Serviço; modelos de implantação. 
+CONHECIMENTOS ESPECÍFICOS - TRT-SE::TECNOLOGIA DA INFORMAÇÃO::DevOps e DevSecOps: Jenkins; Maven; CircleCI; Git; GitHub; GitLab CI/CD; Sellenium; Testes Automatizados.

@@ -1,0 +1,3 @@
+
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 4. INTELIGÊNCIA DA INFORMAÇÃO::II MATEMÁTICA: Conceitos de probabilidade. Modelo de probabilidade. Probabilidade condicional. Independência. Variáveis aleatórias. Esperança, variância e covariância. Distribuições contínuas e discretas. Distribuições multidimensionais: matriz de covariância. 
+2 Estatísticas descritivas. Teorema do Limite Central. Teste de hipótese e intervalo de confiança. Estimador de máxima verossimilhança. Inferência bayesiana. Coeficiente de correlação de Pearson. Diagrama boxplot e avaliação de outliers.

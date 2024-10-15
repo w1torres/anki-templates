@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::NOÇÕES GERAIS SOBRE DEVOPS: 1 Princípios e fundamentos das práticas DevOps, técnicas e ferramentas de builds e deploys automatizados, ferramentas de deploy contínuo, modelo de versionamento, merge, branch e pipeline. 2 CI/CD (continuous integration/continuous delivery). 
+3 Ambiente de clusters, Kubernetes, ferramenta de orquestração de contêineres, Rancher.

@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::PROCESSOS DE NEGÓCIOS: 1 Conceitos básicos sobre processos de negócio. 2 Identificação e delimitação de processos de negócio. 3 Construção e mensuração de indicadores de processos de negócio. 
+4 Técnicas de mapeamento, modelagem e melhoria de processos de negócio. 5 Modelagem de processos em UML 2.5 e BPMN. 6 Noções sobre automação de processos de negócio (BPM).

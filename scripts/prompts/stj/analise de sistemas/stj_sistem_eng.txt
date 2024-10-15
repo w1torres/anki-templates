@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::ENGENHARIA DE SOFTWARE: 1 Conceitos básicos sobre engenharia de software. 2 Disciplinas de engenharia de software. 3 Análise de requisitos funcionais e não‐funcionais. 4 Análise e projeto. 
+5 Qualidade de software. 5.1 Modelos capability maturity model integration (CMMI‐DEV v. 2.0). 5.2 ABNT NBR ISO/IEC/IEEE 12207:2021 e versão 2021 do guia MR‐MPS‐SW. 6 Análise de pontos de função (IFPUG e NESMA).

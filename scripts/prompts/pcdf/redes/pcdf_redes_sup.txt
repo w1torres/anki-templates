@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - PCDF::REDE DE COMPUTADORES::SUPORTE E INFRAESTRUTURA: 1 Arquitetura de Rede TCP/IP. 2 Arquitetura hardware de servidores. 3 Armazenamento de dados. 3.1 Rede SAN (storage area network). 3.2 Conceitos de armazenamento de discos e conceito de replicação de dados. 3.3 Formatação de dados. 
+4 Tópicos avançados. 4.1 Virtualização (VMWare e HyperV). 4.2 Consolidação de servidores. 4.3 Cluster (alta disponibilidade e performance). 4.4 Conceitos de mensageria. 4.5 Computação em grid e em nuvem. 4.6 Nuvem pública e nuvem privada. 4.6.1 Conceitos de ambiente bare meta. 5 Servidores de aplicação (IIS e APACHE). 
+6 Noções de Servidores de páginas em HTML: Nginx e Apache. 7 Conceito de servidores de armazenamento orientado a objetos (object store): S3.

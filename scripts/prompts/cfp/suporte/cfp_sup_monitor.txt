@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Monitoramento e Performance: 16.1 Ferramentas de monitoramento de desempenho. 16.2
+Análise e otimização de recursos de hardware e software. 16.3 Identificação e resolução de gargalos de desempenho. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Backup e Recuperação de Dados: 17.1 Estratégias de backup e recuperação. 17.2 Implementação e gerenciamento de backups. 17.3 Testes de
+restauração e recuperação de dados. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Manutenção Preventiva e Corretiva: 18.1 Planejamento e execução de atividades de manutenção preventiva. 18.2 Identificação e correção de falhas e problemas. 18.3 Ações corretivas para garantir a integridade e
+disponibilidade dos sistemas.

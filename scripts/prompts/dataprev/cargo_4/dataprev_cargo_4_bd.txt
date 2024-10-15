@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 4. INTELIGÊNCIA DA INFORMAÇÃO::BANCO DE DADOS: Modelagem de dados (conceitual, lógica e física). 2 Abordagem relacional. 
+3 Normalização das estruturas de dados. 4 Integridade referencial. 5 Metadados. 6 Modelagem dimensional. 7 Linguagem de consulta estruturada (SQL). 8 Linguagem de definição de dados (DDL). 
+9 Linguagem de manipulação de dados (DML). 10 SGBD. 11 Propriedades de banco de dados. 12 Banco de dados NoSQL. 13 Banco de dados em memória. 14 Data lakes e soluções para big data.

@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 4. INTELIGÊNCIA DA INFORMAÇÃO::I MATEMÁTICA: Cálculo: Funções. Limites. Derivadas. Derivadas Parciais. Máximos e mínimos. Integrais. 
+2 Álgebra linear: Notação de vetores e matrizes. Produto escalar e produto vetorial. Matriz identidade, inversa e transposta. Transformações lineares. Normas L1 e L2. Autovalores e autovetores.

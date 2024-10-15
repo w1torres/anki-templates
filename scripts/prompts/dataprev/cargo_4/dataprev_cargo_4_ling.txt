@@ -1,0 +1,2 @@
+
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 4. INTELIGÊNCIA DA INFORMAÇÃO::LINGUAGENS DE PROGRAMAÇÃO E SOFTWARES EM CIÊNCIAS DE DADOS: Python e suas bibliotecas: Numpy, Matplotlib, Seaborn, Streamlit, Pandas, Scipy, TensorFlow, Keras e Pytorch. 2 R e suas bibliotecas. 3 Apache Hadoop e Apache Spark.

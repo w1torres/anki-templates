@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – DESENHO DE SISTEMAS::Testes de Software: 5.1. Testes de unidade, integração, sistema; testes automatizados (xUnit, Selenium), TDD. 5.2.
+Planejamento de testes, princípios FIRST, testabilidade.
+6. Gerência e Qualidade de Software. 6.1. Métricas de processo e código-fonte, análise estática e dinâmica de software.
+6.2. Padronização, qualidade de software, objetivos da qualidade, restrições e atributos de qualidade.

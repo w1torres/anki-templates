@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::ARQUITETURA DE SOFTWARE: 1 Arquitetura de aplicações para ambiente web. 2 Arquitetura em camadas. 
+3 Noções de arquitetura de microsserviços. 3.1 API RESTful. 3.2 JSON. 3.3 Framework Spring. 3.4 Spring Cloud. 3.5 Spring Boot. 3.6 Spring Eureka, Zuul. 3.7 Map Struct. 3.8 Swagger. 3.9 Service Discovery. 3.10 API Gateway. 4 Domain‐Driven Design. 5 Design Patterns.

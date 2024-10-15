@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – DESENHO DE SISTEMAS::Serviços de autenticação; SSO Single Sign-On; Keycloak; Protocolo OAuth2 (RFC 6749).
+14. Ferramenta de versionamento Git.
+15. Ambiente de clusters, Kubernetes.
+16. Ferramenta de orquestração de containeres, Rancher.
+17. Deploy de aplicações; Continuous Delivery e Continuous Integration (CI/CD)
+18. Fundamentos e Ferramentas de Inteligência Artificial, Machine Learning, Algoritmos Genéticos, Large Language Models LLM, Processamento de Linguagem Natural.

@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – DESENHO DE SISTEMAS::Segurança de Informação e Desenvolvimento de Software Seguro: 7.1. Privacidade e segurança por padrão e por
+design, criptografia, autenticação e autorização. 7.2. Segurança em aplicações web e mobile, gestão de identidades e
+acesso.
+8. Ciência de Dados e Inteligência Artificial. 8.1. Conceitos e tecnologias de IA, aprendizado de máquina, deep learning,
+chatbots. 8.2. Big Data, ETL, modelagem dimensional, Business Intelligence, Data Mining.

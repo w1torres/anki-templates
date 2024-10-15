@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - PCDF::BANCOS DE DADOS::ESTATÍSTICA: 1 Estatística descritiva e análise exploratória de dados. 1.1 Gráficos, diagramas, tabelas, medidas descritivas (posição, dispersão, assimetria e curtose). 2 Probabilidade. 2.1 Definições básicas e axiomas. 2.2 Probabilidade condicional e independência. 
+3 Técnicas de amostragem. 3.1 Amostragem aleatória simples, estratificada, sistemática e por conglomerados. 4 Correlação e regressão. 
+5 Intervalos de confiança. 5.1 Testes de hipóteses para médias e proporções unilaterais (unicaudal) e bilaterais (bicaudal).

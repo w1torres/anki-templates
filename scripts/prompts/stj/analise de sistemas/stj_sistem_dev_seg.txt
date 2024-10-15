@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::DESENVOLVIMENTO DE SOFTWARE SEGURO: 1 SDL, CLASP, codificação segura e programação defensiva, OWASP Top 10. 2 NIST secure software development framework.

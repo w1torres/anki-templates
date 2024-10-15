@@ -1,0 +1,8 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Segurança da Informação: 5.1 Conceitos básicos de segurança da informação. 5.2 Políticas de segurança.
+5.3 Vulnerabilidades e ameaças.
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Governança de TI: 6.1 Gerenciamento de Serviços de TI - ITIL. 6.2 Gerenciamento de projetos de TI
+(PMBOK). 6.3 Gerenciamento de riscos em TI. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Administração de Banco de Dados: 7.1 Noções de banco de dados. 7.2 Conceitos básicos
+e definições. 7.3 Modelo Entidade Relacionamento. 7.4 Restrições de integridade; SQL (Structured Query Language). 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Governança de
+Dados: 8.1 Princípios e conceitos da governança de dados. 8.2 LGPD.

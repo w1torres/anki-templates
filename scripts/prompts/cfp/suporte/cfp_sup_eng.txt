@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Engenharia de Software: 10.1 Análise e Projeto de Sistemas. 10.2 Linguagem de Modelagem Unificada (UML). 10.3 Análise Orientada a Objetos:
+diagrama de classes, diagrama de interação, pacotes e colaboração, diagrama de estados, diagrama de atividades. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Suporte e Manutenção de Sistemas: 11.1 Resolução de incidentes de software e hardware. 11.2 Atualização de sistemas operacionais e aplicativos.
+11.3 Suporte técnico aos usuários. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Gestão de Configurações e Mudanças: 12.1 Controle de configurações e versões de software. 12.2
+Gerenciamento de mudanças e atualizações de sistemas. 12.3 Avaliação e implementação de mudanças.

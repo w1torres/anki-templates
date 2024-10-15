@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – DESENHO DE SISTEMAS::Arquitetura de Sistemas de Informação: 2.1. Padrões de projeto (Design Patterns, padrões GRASP), arquiteturas em
+camadas, baseada em serviços, microserviços. 2.2. Orientação a eventos, cliente/servidor, arquitetura hexagonal,
+serverless, anti-padrões arquiteturais. 2.3. Protocolo HTTP, SSL, DNS, balanceamento de carga, escalabilidade e
+tolerância a falhas em sistemas web.

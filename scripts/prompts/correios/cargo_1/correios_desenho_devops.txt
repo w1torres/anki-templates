@@ -1,0 +1,7 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – DESENHO DE SISTEMAS::Metodologias Ágeis e Práticas DevOps: 9.1. Scrum, Kanban, integração contínua, entrega contínua. 9.2.
+Observabilidade, automação (scripting, operação em ambiente Linux).
+10. Tecnologias Emergentes e Tendências. 10.1. Blockchain, conceitos e aplicações, sistemas de suporte à decisão
+analítica. 10.2 Computação em nuvem (SaaS, PaaS, IaaS), migração para a nuvem, estratégias de escalabilidade.
+11. Arquitetura distribuída de microsserviços; API RESTful; JSON; Framework Spring; Spring Cloud; Spring Boot; Spring
+Eureka, Zuul; Map Struct; Swagger; Service Discovery; API Gateway.
+12. Persistência; JPA 2.0; Hibernate 4.3 ou superior; Hibernate Envers; Biblioteca Flyway.

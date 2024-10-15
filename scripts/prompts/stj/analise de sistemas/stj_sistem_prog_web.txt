@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::PROGRAMAÇÃO WEB: 1 HTML5. 2 CSS3. 3 JavaScript. 4 Angular. 5 XML. 6 TypeScript. 7 Diretrizes de acessibilidade para conteúdo web (WCAG). 
+8 eMAG (modelo de acessibilidade em governo eletrônico). 
+9 Servidores de aplicação. 9.1 WildFly. 9.2 Apache Web Server. 9.3 Tomcat Application Server. 9.4 Ferramentas de versionamento. 9.4.1 Git e Github.

@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - DATAPREV::CARGO: ANALISTA DE TECNOLOGIA DA INFORMAÇÃO - PERFIL: 3. DESENVOLVIMENTO DE SOFTWARE::INTELIGÊNCIA DE NEGÓCIOS: Conceitos, fundamentos, características, técnicas e métodos de business intelligence (BI). 2 Sistemas de suporte a decisão e gestão de conteúdo. 3 Arquitetura e aplicações de data warehouse com ETL e OLAP. 4 Definições e conceitos de data warehouse e data mining. 
+5 Visualização de dados: BD individuais e cubos. 6 Mapeamento das fontes de dados: técnicas para coleta de dados. 7 Arquitetura de business intelligence.

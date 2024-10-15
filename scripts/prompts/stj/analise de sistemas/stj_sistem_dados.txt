@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - STJ::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::CIÊNCIA DE DADOS: 1 Conceitos de big data e analytics. 
+2 Business intelligence 3.0. 3 Data warehouse. 4 ETL. 5 Data mining. 6 Data mart. 7 OLAP.

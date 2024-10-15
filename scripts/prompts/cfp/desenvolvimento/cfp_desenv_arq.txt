@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Arquitetura e Organização de Computadores: 1.1 Organização de
+sistemas de computadores. 1.2 O sistema de computação. 1.3 Memória principal. 1.4 Memória cache. 1.5 Processadores – arquitetura.
+1.6 Memória secundária. 1.7 Barramentos de entrada e saída (E/S).

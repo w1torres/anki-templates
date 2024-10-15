@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Documentação e Gestão do
+Conhecimento: 13.1 Elaboração de documentação técnica. 13.2 Gestão de bases de conhecimento. 13.3 Treinamento e capacitação de usuários. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Melhoria Contínua de Processos: 14.1 Análise de tendências e proposta de melhorias. 14.2 Implementação de boas práticas
+de manutenção e sustentação. 14.3 Monitoramento e otimização de processos de suporte. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Implantação de Atualizações e Patches: 15.1 Avaliação de atualizações de software e patches de segurança. 15.2 Planejamento e implementação de implantações. 15.3
+Testes e validação pós-implantação.

@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-SE::TECNOLOGIA DA INFORMAÇÃO::Fundamentos das linguagens de programação: sintaxe básica, palavras-chave, estrutura e construções básicas de um programa, compilação e execução de programas; 
+Tipos primitivos de dados; Declaração e inicialização de variáveis; Utilização de literais e strings; Categorias de operadores e precedência; Controle de fluxo de programas e repetição; Definição de classes, interfaces, métodos e variáveis; 
+Utilização de encapsulamento, packages, sobrecarga e sobrescrita de métodos; Utilização e implementação de bibliotecas e componentes; Administração de exceções; Acesso a banco de dados.

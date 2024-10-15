@@ -1,0 +1,7 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Hardware: 4.1 Introdução ao Hardware do PC. 4.2 Processadores. 4.3 Barramentos. 4.4 Memórias. 4.5 Placas Mãe. 4.6 Placas de Vídeo. 4.7 Moni tores
+de Vídeo. 4.8 Armazenamento de dados. 4.9 Unidades de disco rígido. 4.10 Montagem de Micros. 4.11 Ventilação. 4.12 Alimentação.
+4.13 Partição e formatação. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Segurança da Informação: 5.1 Conceitos básicos de segurança da informação. 5.2 Políticas de segurança.
+5.3 Vulnerabilidades e ameaças. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Governança de TI: 6.1 Gerenciamento de Serviços de TI - ITIL. 6.2 Gerenciamento de projetos de TI
+(PMBOK). 6.3 Gerenciamento de riscos em TI.

@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Redes de Computadores: 3.1 Conceitos de redes de
+computadores. 3.2 Arquitetura de redes. 3.3 Meios de Transmissão. 3.4 Topologias de redes. 3.5 Modelo OSI. 3.6 Protocolo TCP/IP. 3.7
+Equipamentos de rede. 3.8 Protocolos de LAN. 3.9 Endereçamento IP. 3.10 Roteamento. 3.11 TCP, UDP, ICMP. 3.12 VLAN. 3.13 Interação
+Cliente-Servidor. 3.14 Sistema de Nomes de Domínios (DNS). 3.15 DHCP (Dynamic Host Configuration Protocol). 3.16 Transmissão de
+Arquivos. 3.17 Compartilhamento de Arquivos Remotos. 3.18 WWW (World Wide Web). 3.19 FTP (File Transfer Protocol).

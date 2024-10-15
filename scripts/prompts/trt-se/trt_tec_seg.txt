@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-SE::TECNOLOGIA DA INFORMAÇÃO::Segurança da informação: ABNT NBR ISO/IEC 27001:2022 e ABNT NBR ISO/IEC 27002:2022; Sistemas de proteção (firewall, WAF, UTM, DMZ, Proxy, NAC, Antivírus e Antispam); Sistemas de detecção de intrusão (Intrusion Detection Systems - IDS) e sistemas de prevenção de intrusão (Intrusion Prevention Systems - IPS); 
+Monitoramento de tráfego. Sniffer de rede; Tráfego de dados de serviços e programas usados na internet; Segurança de redes sem fio (EAP, WEP, WPA, WPA2); VPN, VPN-SSL; Interpretação de pacotes; Ataques e ameaças na internet e em redes sem fio; 
+Códigos maliciosos. Ataques de negação de serviço (Denial of Service - DoS) e ataques distribuídos de negação de serviço (Distributed Denial of Service - DDoS); 
+Criptografia assimétrica; Criptografia simétrica; Certificados digitais; 
+Assinaturas digitais; Hashes criptográficos; Controle de acesso: autenticação, autorização e auditoria; controle de acesso baseado em papéis; autenticação baseada em múltiplos fatores; Comunicação segura com Secure Sockets Layer - SSL e Transport Layer Security - TLS.

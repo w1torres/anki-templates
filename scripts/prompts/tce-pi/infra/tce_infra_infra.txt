@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECIALIZADOS - TCE-PI::INFRAESTRUTURA E SEGURANÇA::Infraestrutura de TI: Gestão servidores Windows e Linux; gestão de sistemas de armazenamento de dados e backup; máquinas virtuais; servidores web e clusters; 
+Devops; integração e entrega contínua (CI/CD); computação em nuvem; containers; 
+infraestrutura como código (IaC); monitoramento de serviços e servidores; integração entre sistemas; serviços de mensageria; gestão de bancos de dados; tecnologia e arquitetura de Datacenters.

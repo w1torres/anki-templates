@@ -1,0 +1,11 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Análise de Dados e Informações: 15.1 Dado, informação, conhecimento e inteligência. 15.2 Banco de dados relacionais. 15.3 Metadados. 15.4
+Tabelas, visões (views) e índices. 15.5 Chaves e relacionamentos. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Business Intelligence e Analytics: 16.1 Arquitetura e análise de
+requisitos para sistemas analíticos. 16.2 Ferramentas ETL e OLAP. 16.3 Álgebra relacional e SQL. 16.4 Banco de dados relacional em
+plataforma baixa (Oracle, SQL Server, PostgreeSQL, MySQL). 16.5 Banco de dados NoSQL.
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Modelagem de Dados: 17.1 Modelo entidade-relacionamento. 17.2 Linguagem de implementação banco de dados: banco físico, lógico e conceitual. 17.3 Modelagem
+conceitual de dados. 17.4 Modelagem lógica de dados. 17.5 DataWarehouse. 17.6 Data Lake. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Tratamento de Dados: 18.1 Normalização numérica. 18.2 Discretização. 18.3 Tratamento de dados ausentes. 18.4 Tratamento de outliers e agregações. 18.5 ETLX
+ELT. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/DESENVOLVIMENTO::Consumo de APIs externas Restful e Soap. Autenticação com bearer token, JWT. MVC- Model Viiew-controller. Vue.js e Alpine.js:
+sintaxe e criação do front-end.

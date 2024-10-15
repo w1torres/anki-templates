@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – DESENHO DE SISTEMAS::Engenharia de software: 3.1. Processos de software, engenharia de requisitos, gestão de projetos e produtos de
+software. 3.2. Modelos de software (entidades e relacionamentos), princípios de projeto de software (SOLID, padrões de
+projeto).
+4. Desenvolvimento de Sistemas. 4.1. Linguagens de programação (Java, JavaScript, Python, PHP, Golang), frameworks
+(Spring, Hibernate, Angular, Laravel). 4.2. Desenvolvimento web e mobile, desenvolvimento com containers (Docker,
+Kubernetes). 4.3. Integração de sistemas (REST, SOAP, mensageria, Apache Kafka, RabbitMQ, Webhooks).

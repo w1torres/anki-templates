@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CORREIOS::ANALISTA DE SISTEMA – PRODUÇÃO::Planejamento Estratégico de TIC: 1.1. Fundamentos do Planejamento Estratégico em Tecnologia da Informação e Comunicação. 1.2. Elaboração e implementação do Plano Diretor de TIC (PDTIC). 1.3. Indicadores de desempenho de TIC e alinhamento com objetivos organizacionais.
+2. Governança de TIC. 2.1. COBIT 2019: conceitos básicos, estrutura, objetivos e aplicação para a governança de TIC.
+2.2. ITIL v4: gerenciamento de serviços de TIC, com foco em processos e melhores práticas. 2.3. Balanced Scorecard (BSC) e análise SWOT aplicados à TIC. 2.4. Metodologias Ágeis.
+3. Gerenciamento de projetos de TIC. 3.1. PMBOK 7ª edição: conceitos, grupos de processos e áreas de conhecimento.
+3.2. Escritório de Projetos – PMO e Gestão de Portfólio de Projetos.
+4. Governança e Gestão de Contratos de TIC. 4.1. Resolução CNJ nº 468/2022 e o Guia de Contratações de STIC do Poder Judiciário e suas alterações. 4.2. Lei nº 14.133/2021. 4.3. Planejamento, Fiscalização e Gestão de Contratos de TIC.

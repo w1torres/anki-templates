@@ -1,0 +1,11 @@
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Arquitetura e Organização de Computadores: 1.1 Organização de sistemas de
+computadores. 1.2 O sistema de computação. 1.3 Memória principal. 1.4 Memória cache. 1.5 Processadores – arquitetura. 1.6 Memória
+secundária. 1.7 Barramentos de entrada e saída (E/S). 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Sistemas Operacionais: 2.1 Estruturas dos Sistemas de Computação. 2.2
+Estruturas do Sistema Operacional. 2.3 Gerenciamento de Processos. 2.4 Gerenciamento de Memória. 2.5 Memória Virtual. 2.6 Sistema
+de Arquivos. 2.7 Sistemas de I/O. 2.8 O Sistema GNU/Linux. 2.9 Windows. 
+CONHECIMENTOS ESPECÍFICOS - CFP::ANALISTA TÉCNICO/TI/SUPORTE::Redes de Computadores: 3.1 Conceitos de redes de
+computadores. 3.2 Arquitetura de redes. 3.3 Meios de Transmissão. 3.4 Topologias de redes. 3.5 Modelo OSI. 3.6 Protocolo TCP/IP. 3.7
+Equipamentos de rede. 3.8 Protocolos de LAN. 3.9 Endereçamento IP. 3.10 Roteamento. 3.11 TCP, UDP, ICMP. 3.12 VLAN. 3.13 Interação
+Cliente-Servidor. 3.14 Sistema de Nomes de Domínios (DNS). 3.15 DHCP (Dynamic Host Configuration Protocol). 3.16 Transmissão de
+Arquivos. 3.17 Compartilhamento de Arquivos Remotos. 3.18 WWW (World Wide Web). 3.19 FTP (File Transfer Protocol).
