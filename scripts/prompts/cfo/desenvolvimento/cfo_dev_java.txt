@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Java (J2EE): conceitos, Fundamentos e Sintaxe da Linguagem Java. Desenvolvimento de Aplicações na Plataforma J2EE. Uso de Servlets e JSP. Tomcat.
+Jboss. Eclipse. Controle de versões: CVS.
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Análise e Projeto de Sistemas: 12.1 Engenharia de software: evolução; características; ciclos
+de vida; metodologias; técnicas de especificação. 12.2 Plano de projeto: recursos; métricas de produtividade e qualidade; estimativas;
+técnicas de decomposição; modelos de estimativas; cronogramas; aquisição de software.

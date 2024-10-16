@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Gerenciamento de Projetos de Infraestrutura de TI: 13.1 Métodos e práticas de gestão de projetos. 13.2 Planejamento e execução de projetos de infraestrutura de
+TI. 13.3 Avaliação de recursos e cronogramas. 
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Desenvolvimento de Políticas de Segurança de Rede: 14.1 Elaboração de políticas de
+segurança de rede. 14.2 Implementação de diretrizes de segurança. 14.3 Auditoria e revisão de políticas de segurança.

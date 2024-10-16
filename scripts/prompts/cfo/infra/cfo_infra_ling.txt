@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Linguagens de Programação e Frameworks: 9.1 Linguagem de
+Programação Qlik. 9.2 Python. 9.3 Conceitos sobre Desenvolvimento Web: HTML5, CSS, Javascript, XML, JSON.
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Engenharia de Software: 10.1 Análise e Projeto de Sistemas. 10.2 Linguagem de Modelagem Unificada (UML). 10.3 Análise Orientada a Objetos:
+diagrama de classes, diagrama de interação, pacotes e colaboração, diagrama de estados, diagrama de atividades.

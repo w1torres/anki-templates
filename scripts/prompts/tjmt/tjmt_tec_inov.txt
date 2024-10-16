@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TJ MT::TECNOLOGIA DA INFORMAÇÃO::INOVAÇÃO E TENDÊNCIAS EM TI::Conceitos e estratégias de transformação digital. Tendências tecnológicas: computação em nuvem, Internet das Coisas (IoT), Inteligência Artificial (IA) e Machine Learning, Blockchain. Práticas de TI verde e sustentabilidade. Impacto da inovação tecnológica nas organizações.
+NORMAS E PADRÕES DE TI: 7. Normas e padrões internacionais: ISO, IEEE, ANSI. 2. Boas práticas de TI. 3. Compliance e auditoria de TI.

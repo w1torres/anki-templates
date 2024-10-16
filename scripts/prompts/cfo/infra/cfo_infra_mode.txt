@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Modelagem de Dados: 17.1 Modelo entidade-relacionamento. 17.2 Linguagem de implementação banco de dados: banco físico, lógico e conceitual. 17.3 Modelagem
+conceitual de dados. 17.4 Modelagem lógica de dados. 17.5 DataWarehouse. 17.6 Data Lake.
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Tratamento de Dados: 18.1 Normalização numérica. 18.2 Discretização. 18.3 Tratamento de dados ausentes. 18.4 Tratamento de outliers e agregações. 18.5 ETLX
+ELT.

@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Projeto de software: fundamentos; processo; arquitetura de software; estrutura de programas; estrutura de
+dados; conceitos, metodologias, técnicas, fases, ferramentas, diagramas e notações de projeto modular, projeto orientado a fluxos de
+dados, projeto orientado a estruturas de dados e projeto orientado a objetos.
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Teste de software: fundamentos; técnicas; teste da
+caixa branca; teste da caixa preta; teste de loops; verificações; validações; teste de unidades; teste de integração; teste de validação;
+teste do sistema; Debugging.

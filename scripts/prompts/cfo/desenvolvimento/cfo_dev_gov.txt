@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Segurança da Informação: 5.1 Conceitos básicos de segurança da informação. 5.2 Políticas de segurança.
+5.3 Vulnerabilidades e ameaças.
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Governança de TI: 6.1 Gerenciamento de Serviços de TI - ITIL. 6.2 Gerenciamento de projetos de TI
+(PMBOK). 6.3 Gerenciamento de riscos em TI.

@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Virtualização e Cloud Computing: 11.1 Introdução à virtualização. 11.2 Tecnologias de virtualização (VMware, Hyper-V). 11.3 Implantação e
+gerenciamento de ambientes em nuvem. 
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Automatização de Processos: 12.1 Automação de tarefas e processos de infraestrutura. 12.2
+Ferramentas de automação (ex: Ansible, Puppet, Chef). 12.3 Desenvolvimento de scripts para automação.

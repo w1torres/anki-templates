@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TJ MT::TECNOLOGIA DA INFORMAÇÃO::GESTÃO DE SERVIÇOS DE TI::Introdução ao ITIL e seus processos. Gerenciamento de serviços: catálogo de serviços, níveis de serviço, gerenciamento de capacidade e disponibilidade. 
+Gerenciamento de incidentes e problemas; Gestão de mudanças, configurações e liberações.

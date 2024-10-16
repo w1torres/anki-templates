@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Metodologias de desenvolvimento de
+sistemas: Análise essencial, Análise Estruturada e Análise orientada a objetos. Metodologias ágeis para o desenvolvimento de software:
+Scrum 2020, XP, Lean. 
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Análise de sistemas: análise de requisitos; princípios de análise; conceitos, metodologias, arquiteturas, técnicas,
+fases, ferramentas, diagramas e notações da análise orientada a objetos, análise estruturada, engenharia da informação e análise
+essencial, prototipação.

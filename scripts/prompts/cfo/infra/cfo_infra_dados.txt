@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Análise de Dados e Informações: 15.1 Dado, informação, conhecimento e inteligência. 15.2 Banco de dados relacionais. 15.3 Metadados. 15.4
+Tabelas, visões (views) e índices. 15.5 Chaves e relacionamentos.
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Business Intelligence e Analytics: 16.1 Arquitetura e análise de
+requisitos para sistemas analíticos. 16.2 Ferramentas ETL e OLAP. 16.3 Álgebra relacional e SQL. 16.4 Banco de dados relacional em
+plataforma baixa (Oracle, SQL Server, PostgreeSQL, MySQL). 16.5 Banco de dados NoSQL.

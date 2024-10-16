@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - TJ MT::TECNOLOGIA DA INFORMAÇÃO::FUNDAMENTOS DE TECNOLOGIA DA INFORMAÇÃO::Conceitos básicos de Tecnologia da Informação (TI). Componentes de sistemas de informação: hardware, software, redes e pessoas. Modelos de arquitetura de sistemas: cliente-servidor, cloud computing, arquitetura orientada a serviços (SOA).

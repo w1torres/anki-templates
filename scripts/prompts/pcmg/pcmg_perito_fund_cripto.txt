@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - PCMG::PERITO CRIMINAL::INFORMÁTICA::Criptografia: noções de criptografia; 3.5.1. sistemas criptográficos simétricos e assimétricos; 3.5.1. certificação digital; 3.5.1. algoritmos simétricos e assimétricos: RSA, Diffie-Helman, AES e RC4; 3.5.1. hashes criptográficos: principais algoritmos; 3.5.1. colisões. 

@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Arquitetura e Organização de Computadores: 1.1 Organização de sistemas de
+computadores. 1.2 O sistema de computação. 1.3 Memória principal. 1.4 Memória cache. 1.5 Processadores – arquitetura. 1.6 Memória
+secundária. 1.7 Barramentos de entrada e saída (E/S).
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Sistemas Operacionais: 2.1 Estruturas dos Sistemas de Computação. 2.2
+Estruturas do Sistema Operacional. 2.3 Gerenciamento de Processos. 2.4 Gerenciamento de Memória. 2.5 Memória Virtual. 2.6 Sistema
+de Arquivos. 2.7 Sistemas de I/O. 2.8 O Sistema GNU/Linux. 2.9 Windows.

@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TJ MT::TECNOLOGIA DA INFORMAÇÃO::SEGURANÇA DA INFORMAÇÃO::Conceitos básicos de segurança da informação: confidencialidade, integridade, disponibilidade, autenticidade e não repúdio. Políticas e práticas de segurança da informação. 
+Gestão de riscos de segurança da informação. Normas e regulamentações: ISO/IEC 27001 e 27002, LGPD, GDPR. Tecnologias de segurança: criptografia, firewalls, sistemas de detecção e prevenção de intrusões, antivírus.

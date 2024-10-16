@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Administração de Banco de Dados: 7.1 Noções de banco de dados. 7.2 Conceitos básicos
+e definições. 7.3 Modelo Entidade Relacionamento. 7.4 Restrições de integridade; SQL (Structured Query Language).
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE INFRAESTRUTURA::Governança de Dados: 8.1 Princípios e conceitos da governança de dados. 8.2 LGPD.
