@@ -1,3 +1,0 @@
-CONHECIMENTOS ESPECÍFICOS - STJ::SUPORTE EM TECNOLOGIA DA INFORMAÇÃO::GOVERNANÇA E GESTÃO DE TI: 1 Planejamento estratégico da TI (PETI). 1.1 Plano Diretor de Tecnologia da Informação (PDTIC). 2 Alinhamento estratégico entre TI e negócio. 3 Estrutura organizacional e responsabilidades de TI. 
-4 ISO/IEC 38500. 5 ISO/IEC 20000. 6 COBIT 2019. 7 ITIL v4. 8 PMBOK 7ª edição. 
-9 Modelagem e mapeamento de processos de negócio. 9.1 Conceitos sobre processos de negócio. 9.2 Identificação e delimitação de processos de negócio. 9.3 Construção e mensuração de indicadores de processos de negócio. 9.4 Técnicas de mapeamento, modelagem e melhoria de processos de negócio. 9.5 Modelagem de processos em BPMN.

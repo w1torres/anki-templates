@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TCDF::MICROINFORMÁTICA E INFRAESTRUTURA DE TI::DEVOPS:Docker. 1.1 Conceitos básicos e principais comandos. 2 Container Runtime Interface (CRI). 3 Kubernetes v1.30. 
+3.1 Conceitos básicos (pods, services, volumes, configmaps, deployments, statefulsets, secrets). 3.2 Arquitetura e criação de clusters. 3.3 Comandos básicos utilizando as ferramentas kubectl e kubeadm. 3.4 Arquitetura de alta disponibilidade. 3.5 Ingress. 3.6 Helm v3.0. 4 Boas práticas de DevOps e administração de containers.

@@ -1,4 +1,5 @@
-CONHECIMENTOS ESPECÍFICOS - TRF-6::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::ENGENHARIA DE SOFTWARE: 1 Conceitos básicos sobre engenharia de software. 2 Disciplinas de engenharia de software. 3 Análise de requisitos funcionais e não-funcionais. 4 Análise e projeto. 
+CONHECIMENTOS ESPECÍFICOS - TRF-6::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::ENGENHARIA DE SOFTWARE:Conceitos básicos sobre engenharia de software. 2 Disciplinas de engenharia de software. 3 Análise de requisitos funcionais e não-funcionais. 4 Análise e projeto.
 5 Qualidade de software. 5.1 Modelos capability maturity model integration (CMMI-DEV v. 2.0). 5.2 ABNT NBR ISO/IEC/IEEE 12207:2021 e versão 2021 do guia MR-MPS-SW. 6 Análise de pontos de função (IFPUG e NESMA).
-CONHECIMENTOS ESPECÍFICOS - TRF-6::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::ARQUITETURA DE SOFTWARE: 1 Arquitetura de aplicações para ambiente web. 2 Arquitetura em camadas. 
+
+CONHECIMENTOS ESPECÍFICOS - TRF-6::ANÁLISE DE SISTEMAS DE INFORMAÇÃO::ARQUITETURA DE SOFTWARE:Arquitetura de aplicações para ambiente web. 2 Arquitetura em camadas. 
 3 Noções de arquitetura de microsserviços. 3.1 API RESTful. 3.2 JSON. 3.3 Framework Spring. 3.4 Spring Cloud. 3.5 Spring Boot. 3.6 Spring Eureka, Zuul. 3.7 Map Struct. 3.8 Swagger. 3.9 Service Discovery. 3.10 API Gateway. 4 Domain-Driven Design. 5 Design Patterns.

@@ -1,0 +1,8 @@
+CONHECIMENTOS BÁSICOS - CFN::INFORMÁTICA: 1 Conceitos básicos e modos de utilização de
+tecnologias, ferramentas, aplicativos e procedimentos de informática: tipos de computadores, conceitos de hardware e de software,
+instalação de periféricos. 2 Edição de textos, planilhas e apresentações: ambiente Microsoft Office, versões 2010, 2013 e 365. 3 Noções
+de sistema operacional: ambiente Windows, versões 7, 8 e 10. 4 Redes de computadores: conceitos básicos, ferramentas, aplicativos e
+procedimentos de internet e intranet. 5 Programas de navegação: Google Chrome e Microsoft Edge. 6 Programa de correio eletrônico:
+MS Outlook. 7 Sítios de busca e pesquisa na internet. 8 Conceitos de organização e de gerenciamento de informações, arquivos, pastas e
+programas. 9 Segurança da informação: procedimentos. 10 Noções de vírus, worms e pragas virtuais. 11 Aplicativos para segurança:
+antivírus, firewall, antispyware. 12 Processos de backup.

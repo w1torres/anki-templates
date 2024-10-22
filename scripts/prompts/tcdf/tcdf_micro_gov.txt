@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TCDF::MICROINFORMÁTICA E INFRAESTRUTURA DE TI::GESTÃO E GOVERNANÇA DE TI: 1 Planejamento e Gestão Estratégicos de TI. 1.1 PETI, PDTI e Indicadores de desempenho de TI. 2 Gerenciamento de projetos (PMBOK 7ª edição). 
+3 Gerenciamento de serviços (ITIL V4). 3.1 Conceitos básicos, estrutura e objetivos. 4 Governança de TI (COBIT 2019). 4.1 Conceitos básicos, estrutura e objetivos. 5 Lei nº 12.527/2011 (Lei de Acesso à Informação).

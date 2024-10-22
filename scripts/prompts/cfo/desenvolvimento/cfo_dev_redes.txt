@@ -1,8 +1,5 @@
-CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Redes de Computadores: 3.1 Conceitos de redes de
-computadores. 3.2 Arquitetura de redes. 3.3 Meios de Transmissão. 3.4 Topologias de redes. 3.5 Modelo OSI. 3.6 Protocolo TCP/IP. 3.7
-Equipamentos de rede. 3.8 Protocolos de LAN. 3.9 Endereçamento IP. 3.10 Roteamento. 3.11 TCP, UDP, ICMP. 3.12 VLAN. 3.13 Interação
-Cliente-Servidor. 3.14 Sistema de Nomes de Domínios (DNS). 3.15 DHCP (Dynamic Host Configuration Protocol). 3.16 Transmissão de
+CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Redes de Computadores: 3.1 Conceitos de redes de computadores. 3.2 Arquitetura de redes. 3.3 Meios de Transmissão. 3.4 Topologias de redes. 3.5 Modelo OSI. 3.6 Protocolo TCP/IP. 3.7
+Equipamentos de rede. 3.8 Protocolos de LAN. 3.9 Endereçamento IP. 3.10 Roteamento. 3.11 TCP, UDP, ICMP. 3.12 VLAN. 3.13 Interação Cliente-Servidor. 3.14 Sistema de Nomes de Domínios (DNS). 3.15 DHCP (Dynamic Host Configuration Protocol). 3.16 Transmissão de
 Arquivos. 3.17 Compartilhamento de Arquivos Remotos. 3.18 WWW (World Wide Web). 3.19 FTP (File Transfer Protocol). 
 CONHECIMENTOS ESPECÍFICOS - CFO::ANALISTA DE DESENVOLVIMENTO::Hardware: 4.1 Introdução ao Hardware do PC. 4.2 Processadores. 4.3 Barramentos. 4.4 Memórias. 4.5 Placas Mãe. 4.6 Placas de Vídeo. 4.7 Moni tores
-de Vídeo. 4.8 Armazenamento de dados. 4.9 Unidades de disco rígido. 4.10 Montagem de Micros. 4.11 Ventilação. 4.12 Alimentação.
-4.13 Partição e formatação.
+de Vídeo. 4.8 Armazenamento de dados. 4.9 Unidades de disco rígido. 4.10 Montagem de Micros. 4.11 Ventilação. 4.12 Alimentação. 4.13 Partição e formatação.

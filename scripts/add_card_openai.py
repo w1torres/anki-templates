@@ -234,7 +234,7 @@ def import_cards_to_anki(instructions, topic, deck_name, model="gpt-4o-mini", te
                         **{f"option_{i+1}": option for i, option in enumerate(options)}
                     }
 
-                elif notetype == "Omissão de Palavras":
+                elif notetype == "Omissão de Palavras Customizado":
                     if len(fields) < 3:
                         logging.warning(f"Cartão com número insuficiente de colunas. Linha ignorada: {card}")
                         continue
@@ -334,8 +334,17 @@ if __name__ == "__main__":
 
         # Coleta prompts e gera os baralhos automaticamente
         while True:
-            file_path = input("Digite o caminho do arquivo com o prompt: ")
-            user_prompt = read_prompt(file_path)
+            option = input("Você quer digitar o prompt manualmente ou selecionar um arquivo? (1 = Digitar / 2 = Arquivo): ")
+            
+            if option == '1':
+                user_prompt = input("Digite seu prompt: ")
+            
+            elif option == '2':
+                file_path = input("Digite o caminho do arquivo com o prompt: ")
+                user_prompt = read_prompt(file_path)
+
+            else:
+                print("Opção inválida. Escolha 1 ou 2.")
 
             # Gerar tópicos e baralhos a partir do arquivo de instruções
             deck_info_list = generate_deck_info(user_prompt)
