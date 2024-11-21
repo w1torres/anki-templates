@@ -1,0 +1,14 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::INFRAESTRUTURA E SEGURANÇA CIBERNÉTICA::SEGURANÇA CIBERNÉTICA: 1 Fundamentos de Segurança da Informação. 1.1 Princípios de
+confidencialidade. 1.2 Integridade. 1.3 Disponibilidade. 2 Gestão de Riscos e Conformidade. 2.1 Avaliação
+de riscos. 2.2 Políticas de segurança. 2.3 Conformidade com normas e regulamentações. 3 Segurança de
+Rede. 3.1 Firewalls, IDS/IPS, VPNs e segmentação de rede. 4 Criptografia. 4.1 Técnicas de criptografia e
+principais ferramentas. 5 Segurança em Nuvem. 5.1 Práticas de segurança para ambientes de nuvem. 6
+Gestão de Identidades e Acesso: Autenticação e Autorização, Single Sign-On (SSO), Security Assertion
+Markup Language (SAML), OAuth2 e OpenId Connect. 7 Principais tipos de ataques e vulnerabilidades. 8
+Controles e testes de segurança para aplicações Web e Web Services. 9 Soluções para Segurança da
+Informação: Firewall, Intrusion Detection System (IDS), Intrusion Prevention System (IPS), Security
+Information and Event Management (SIEM), Proxy, Identity Access Management (IAM), Privileged Access
+Management (PAM), Antivírus, Antispam. 10 Frameworks de segurança da informação e segurança
+cibernética, como, por exemplo, MITRE, CIS Controls e NIST CyberSecurity Framework (NIST CSF). 11
+Tratamento de Incidentes Cibernéticos. 12 Assinatura e certificação digital, criptografia e proteção de
+dados em trânsito e em repouso. 13 Segurança em nuvens e de contêineres.

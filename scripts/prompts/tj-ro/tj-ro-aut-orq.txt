@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TJ RO::ANALISTA DE SISTEMAS::Automação e orquestração::Noções de DevOps: princípios e práticas de DevOps, incluindo CI/CD, automação de testes e colaboração entre equipes de desenvolvimento e operações. 
+Conhecimento em containers: LXC/LXD, Docker, Podman, CRI-O e Containerd. Conhecimento em orquestradores: Kubernetes e OpenShift. Ferramentas de automação: Helm e integração CI/CD nas pipelines do GitLab. Infraestrutura como código (IaC): Terraform, Ansible e GitLab. 
+Balanceamento de Carga: Conceitos e ferramentas: F5 Big Ip Management, Traefik, HAProxy, Nginx. Service Mesh: Conceitos e ferramentas como Istio, Linkerd, e Consul Connect para gestão de tráfego entre microsserviços.

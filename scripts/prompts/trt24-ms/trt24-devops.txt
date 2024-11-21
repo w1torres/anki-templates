@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-24/MS::TECNOLOGIA DA INFORMAÇÃO::DevOps e DevSecOps::Noções de Kubernetes e Docker. Integração e entrega contínua (CI/CD), SSO Single Sign On; Protocolo OAuth2 (RFC 6749). Proxy reverso. 

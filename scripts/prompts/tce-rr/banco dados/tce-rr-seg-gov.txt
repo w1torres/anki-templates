@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Governança de Dados e Gestão de Metadados::Governança de Dados: Princípios e frameworks de governança de dados: DAMA-DMBOK. Qualidade de dados: padrões,
+limpeza, consistência e integridade. Ciclo de vida dos dados e políticas de retenção. 10.2. Gestão de Metadados: Ferramentas e técnicas de gestão de metadados. Catalogação e descoberta de dados.
+Governança de dados aplicada ao controle de auditoria.

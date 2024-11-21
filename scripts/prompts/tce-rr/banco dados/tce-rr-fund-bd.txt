@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Fundamentos de Banco de Dados::Conceitos de Banco de Dados: Tipos de banco de dados: relacionais e não relacionais (NoSQL).
+Modelagem de dados: conceito de entidades, atributos, relacionamentos. Normalização: formas normais e desnormalização. Modelagem lógica e física de banco de dados. 1.2. Arquitetura de Banco de Dados:
+Arquitetura cliente-servidor. Conexão, transações e concorrência. Atomicidade, Consistência, Isolamento e Durabilidade (ACID).

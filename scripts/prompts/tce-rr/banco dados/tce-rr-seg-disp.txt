@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Desempenho e Alta Disponibilidade::Tuning de Desempenho de Banco de Dados: Análise de desempenho: monitoramento de queries, otimização de índices, particionamento de tabelas. Técnicas de
+tuning em SQL: otimização de consultas, hints de execução. 9.2. Alta Disponibilidade e Tolerância a Falhas: Clusterização e replicação de banco de dados: Oracle RAC, MySQL Replication, PostgreSQL
+Streaming Replication. Soluções de alta disponibilidade e balanceamento de carga. Recuperação de desastres e estratégias de failover.

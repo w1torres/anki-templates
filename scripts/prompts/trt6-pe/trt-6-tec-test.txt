@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-6-PE::TECNOLOGIA DA INFORMAÇÃO::Testes de Software: Conceitos de testes de software; Testes automatizados; Test-Driven Development (TDD); Selenium; Ferramentas de testes unitários (JUnit, PyTest); Testes de desempenho e carga (JMeter); Testes de segurança (OWASP ZAP); Testes de integração.

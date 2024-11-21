@@ -1,0 +1,10 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-24/MS::TECNOLOGIA DA INFORMAÇÃO::Testes de Software: cobertura de código, testes unitários, testes de integração, JUnit, Mockito. 
+Noções de arquitetura de sistemas: cliente/servidor, multicamadas, hub, web server e orientada a serviços, mensageria e webhooks, swagger.
+
+
+
+
+
+
+
+

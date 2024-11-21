@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TJ RO::ANALISTA DE SISTEMAS::Criptografia::Conceitos básicos: Cifragem, descriptografia, chaves, algoritmos. 
+Tipos de criptografia: simétrica e assimétrica e hash. Assinatura, certificação digital e infraestrutura de chave pública (PKI).

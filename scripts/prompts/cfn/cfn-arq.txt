@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - CFN::TECNOLOGIA DA INFORMAÇÃO::Arquitetura e Organização de Computadores::Organização de sistemas de computadores. 1.2 O sistema de computação. 1.3 Memória
+principal. 1.4 Memória cache. 1.5 Processadores: arquitetura. 1.6 Memória secundária. 1.7 Barramentos de entrada e saída (E/S).
+Sistemas Operacionais: Estruturas dos sistemas de computação. 2.2 Estruturas do sistema operacional. 2.3 Gerenciamento de
+processos. 2.4 Gerenciamento de memória. 2.5 Memória virtual. 2.6 Sistema de arquivos. 2.7 Sistemas de I/O. 2.8 Sistema GNU/Linux.
+2.9 Windows.

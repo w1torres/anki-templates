@@ -1,0 +1,8 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::SISTEMAS, ARQUITETURA DE SOLUÇÕES E DADOS::DEVOPS::Integração Contínua/Entrega Contínua (CI/CD). 1.1 Ferramentas e práticas. 2 Automação de
+Infraestrutura. 2.1 Infraestrutura como Código (IaC). 2.2 Ferramentas como Ansible, Terraform. 3
+Monitoramento e Logging. 3.1 Ferramentas e técnicas para monitoramento de sistemas. 4 Práticas de
+DevOps. 4.1 Cultura DevOps. 4.2 Colaboração entre equipes de desenvolvimento e operações. 5
+Containers e Docker. 5.1 Gerenciamento e orquestração de containers. 6 Cloud e Azure DevOps. 6.1
+Implementação de práticas DevOps em ambientes de nuvem, com foco em Azure DevOps. 7 Configuration
+Management Tools. 8 Containerization and Orchestration. 9 Infrastructure as Code (IaC). 10 Continuous
+integration and continuous delivery. 11 Monitoring and Logging Tool.

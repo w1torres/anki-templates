@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::INFRAESTRUTURA E SEGURANÇA CIBERNÉTICA::INFRAESTRUTURA DE TI::Redes de Computadores. 1.1 Protocolos de comunicação 1.2 Topologias de
+rede. 1.3 Roteamento e switching. 2 Administração de Sistemas Operacionais. 2.1 Configuração e
+gerenciamento de sistemas Windows e Linux. 3 Virtualização e Containers. 3.1 Tecnologias de
+virtualização e containers (Docker, Kubernetes). 4 Computação em Nuvem. 4.1 Conceitos de nuvem. 4.2
+Modelos de serviço (IaaS, PaaS, SaaS). 4.3 Administração e operação de sistemas operacionais Microsoft
+Windows Server e Linux na Azure.

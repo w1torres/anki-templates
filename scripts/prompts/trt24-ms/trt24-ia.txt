@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-24/MS::TECNOLOGIA DA INFORMAÇÃO::Inteligência Artificial e Aprendizado de Máquina: principais técnicas de préprocessamento de dados estruturados e não estruturados; 
+conceitos de modelos preditivos (supervisionados) e descritivos (não supervisionados); avaliação de modelos (sobreajuste, métricas de classificação e regressão, análise ROC);
+conhecimentos sobre ferramentas de desenvolvimento de aplicações de aprendizado de máquina (python 3, scikit-learn, keras, pytorch).

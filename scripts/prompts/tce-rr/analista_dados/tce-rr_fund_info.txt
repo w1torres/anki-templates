@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Fundamentos de Tecnologia da Informação::Arquitetura de Computadores::Componentes de hardware e software. Processamento de dados e
+memória. Sistemas de armazenamento e tipos de dispositivos. 1.2. Sistemas Operacionais: Princípios gerais de sistemas operacionais (Linux e Windows). Gerenciamento de processos, memória e dispositivos.
+Sistemas de arquivos e permissões.

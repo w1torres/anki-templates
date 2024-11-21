@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Big Data e Data Warehousing::Big Data: Conceitos de Big Data: volume, variedade, velocidade, veracidade e valor. Tecnologias de Big Data: Hadoop, Spark, HBase. Ferramentas de armazenamento e processamento de dados massivos. 4.2. Data Warehousing: Conceitos de
+data warehouse e data mart. Modelagem multidimensional: cubos OLAP, esquemas estrela e floco de neve. ETL para data warehouses.

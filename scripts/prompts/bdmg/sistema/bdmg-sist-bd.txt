@@ -1,0 +1,7 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::SISTEMAS, ARQUITETURA DE SOLUÇÕES E DADOS::DATA VISUALIZATION, BANCO DE DADOS E BI::Visualização de Dados. 1.1 Ferramentas como Power BI,
+técnicas de visualização. 2 Business Intelligence (BI). 2.1 Criação de dashboards. 2.2 Relatórios. 2.3 OLAP.
+3 Gerenciamento de Banco de Dados. 3.1 Administração de bancos de dados. 3.2 SQL. 3.3 Tuning de
+performance. 4 Modelagem de Dados. 4.1 Técnicas de modelagem. 4.2 Normalização e design de banco
+de dados. 5 Python (NumPy, Pandas, SciPy, Statsmodels), (Matplotlib, Seaborn, Plotly ). 6 Construção de
+dashboards (Power BI). 7 SGBDs SQL e NOSQL. 8 Modelagens de dados: relacional, multidimensional,
+nosql.

@@ -1,0 +1,10 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::INFRAESTRUTURA E SEGURANÇA CIBERNÉTICA::GERENCIAMENTO DE INFRAESTRUTURA::Monitoração, observabilidade e análise de sistemas em
+produção por meio do uso de ferramentas de monitoramento e logging, como o Prometheus, Grafana,
+Elasticsearch, Kibana, Application Performance Monitoring (APM), entre outras. 2 Automação e
+Orquestração. 2.1 Ferramentas de automação (Ansible, Puppet, Chef) e orquestração (Kubernetes). 3
+Gerenciamento de Configuração. 3.1 Infraestrutura como Código (IaC) com Terraform e Ansible. 4
+Continuidade de Negócios e Recuperação de Desastres. 4.1 Planejamento e implementação de estratégias
+de continuidade e recuperação. 5 Ferramentas e soluções para DevOps. 6 Ferramentas e soluções para
+DevSecOps. 7 Devops: Ansible; Docker; Kubernetes; Terraform; Azure Devops; Prometheus; Grafana; ELK
+Stack (Elasticsearch, Logstash, Kibana).
+Windows Server e Linux na Azure.

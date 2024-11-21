@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Linguagens de Banco de Dados::SQL (Structured Query Language): Comandos de DDL (Data Definition Language): CREATE, ALTER, DROP. Comandos de DML (Data
+Manipulation Language): SELECT, INSERT, UPDATE, DELETE. Operações avançadas de consulta:JOIN (INNER, LEFT, RIGHT, FULL), subconsultas, funções agregadas (SUM, COUNT, AVG).
+Gerenciamento de transações: COMMIT, ROLLBACK, SAVEPOINT. Consultas otimizadas e uso de índices. 2.2. PL/SQL (Procedural Language/SQL): Programação em PL/SQL: criação de funções,
+procedimentos armazenados (stored procedures), triggers e pacotes. Controle de fluxo: IF, CASE, LOOP, WHILE. Tratamento de exceções. 2.3. Linguagens para Bancos de Dados NoSQL: Introdução a consultas
+em MongoDB (banco de dados NoSQL). Manipulação de documentos e coleções em JSON. Operações CRUD (Create, Read, Update, Delete) em MongoDB.

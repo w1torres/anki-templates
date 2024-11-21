@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::SISTEMAS, ARQUITETURA DE SOLUÇÕES E DADOS::METODOLOGIAS ÁGEIS E INDICADORES::Metodologias Ágeis em projetos de TI: conceitos e
+fundamentos básicos. 1.1 Scrum. 1.2 Kanban. 1.3 XP. 2 Indicadores de Desempenho. 2.1 KPIs. Métricas de
+qualidade. 2.2 Métricas de produtividade. 3 Gestão de Projetos Ágeis. 3.1 Planejamento. 3.2 Execução e
+monitoramento de projetos ágeis. 4 Práticas de Melhoria Contínua. 4.1 Proposição de melhorias nos
+processos de desenvolvimento. 5 PMBOK 7ª edição.

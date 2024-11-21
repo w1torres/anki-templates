@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Segurança da Informação e Proteção de Dados::Segurança de Dados: Políticas e práticas de segurança da informação. Criptografia de dados: simétrica e assimétrica. Protocolos
+de segurança de redes e proteção de dados em trânsito. 7.2. Legislação de Proteção de Dados: Lei Geral de Proteção de Dados (LGPD). Boas práticas para o armazenamento e tratamento de dados sensíveis.
+Compliance em TI e auditorias de segurança.

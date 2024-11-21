@@ -1,0 +1,11 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::INFRAESTRUTURA E SEGURANÇA CIBERNÉTICA::SEGURANÇA DE APLICAÇÕES::Desenvolvimento Seguro. 1.1 Práticas de desenvolvimento seguro,
+OWASP Top 10. 2 Testes de Segurança. 2.1 Testes de penetração. Análise de vulnerabilidades. 2.2 Red
+Team e Blue Team. 2.3 Ferramentas de segurança. 3 Gerenciamento de Identidades e Acessos. 3.1
+Autenticação, autorização, e gerenciamento de identidades (IAM). 4 Segurança em DevOps. 4.1
+Integração de práticas de segurança em pipelines CI/CD. 5 Governança e Frameworks de Segurança. 5.1
+Implementação e conformidade com frameworks como NIST. 5.2 ISO 27001. 5.3 Práticas de governança
+de segurança da informação. 6 Soluções para Autenticação: multifatorial, biometria e tokens físicos. 7
+Autorização identidade validada (gerenciamento de acesso à identidade) privilégios do usuário. 8
+Criptografia: em ambiente on-premisse e ambientes baseados em nuvem. 9 Testes: DAST- Dynamic
+Application Security Testing, SAST (Static Application Security Testing), IAST (Interactive Application
+Security Testing e Software Composition Analysis (SCA).

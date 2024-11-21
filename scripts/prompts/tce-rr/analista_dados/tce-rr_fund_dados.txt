@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Fundamentos Estatísticos para Análise de Dados::Medidas de centralidade e dispersão: média, mediana, moda, variância, desvio padrão. Probabilidade, distribuição normal,
+binomial, Poisson. Inferência estatística: testes de hipóteses, intervalos de confiança, p-valor. 6.1. Modelagem Estatística: Regressão linear e não linear. Séries temporais: análise e previsão. Análise de
+variância (ANOVA).

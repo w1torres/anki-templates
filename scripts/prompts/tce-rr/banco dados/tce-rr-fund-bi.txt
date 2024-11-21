@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Data Warehousing e Business Intelligence (BI)::Conceitos de Data Warehouse: Definição e arquitetura de Data Warehouse. Modelagem multidimensional:
+esquemas estrela e floco de neve. Extração, Transformação e Carga de Dados (ETL): ferramentas e processos. 5.2. Ferramentas de ETL e Integração de Dados: Ferramentas de ETL: Pentaho, Talend,
+Apache Nifi. Integração de dados de diferentes fontes em um Data Warehouse. 5.3. Business Intelligence (BI): Ferramentas de BI: Tableau, Power BI, QlikView. Construção de dashboards e relatórios dinâmicos.
+Análise de dados para suporte à decisão.

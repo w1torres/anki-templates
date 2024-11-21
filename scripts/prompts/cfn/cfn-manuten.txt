@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - CFN::TECNOLOGIA DA INFORMAÇÃO::Manutenção Preventiva e Corretiva::Planejamento e execução de atividades de manutenção preventiva. 15.2 Identificação e correção de falhas
+e problemas. 15.3 Ações corretivas para garantir a integridade e disponibilidade dos sistemas. 16 Normas Técnicas: 16.1 ABNT ISO/IEC
+19770, ABNT ISO/IEC 20000-1, ABNT ISO/IEC 27001, ABNT ISO/IEC 27032, ABNT ISO/IEC 27701. 16.2 Frameworks relacionados à
+tecnologia da informação.

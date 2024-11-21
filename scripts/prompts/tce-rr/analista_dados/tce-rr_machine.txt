@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Machine Learning e Inteligência Artificial::Fundamentos de Machine Learning: Algoritmos de aprendizado supervisionado e não supervisionado. Algoritmos comuns:
+regressão linear e logística, árvores de decisão, KNN, SVM. Conceitos de overfitting e underfitting. 5.2. Aplicação de Modelos Preditivos: Construção, avaliação e validação de modelos preditivos. Métricas de
+avaliação de modelos: precisão, recall, F1-score, matriz de confusão. Frameworks de machine learning: scikit-learn, TensorFlow, PyTorch. 5.3. Redes Neurais e Deep Learning: Conceitos de redes neurais
+artificiais. Redes neurais convolucionais e recorrentes. Aplicações de deep learning para análise de grandes volumes de dados.

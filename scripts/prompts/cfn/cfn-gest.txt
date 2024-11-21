@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - CFN::TECNOLOGIA DA INFORMAÇÃO::Gestão de Configurações e Mudanças::Controle de configurações e versões de software. 9.2 Gerenciamento de mudanças e atualizações de sistemas. 9.3
+Avaliação e implementação de mudanças.
+Documentação e Gestão do Conhecimento: 10.1 Elaboração de documentação técnica. 10.2 Gestão de bases de conhecimento. 10.3 Treinamento e capacitação de usuários.

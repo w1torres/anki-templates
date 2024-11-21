@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - CFN::TECNOLOGIA DA INFORMAÇÃO::Monitoramento e Performance::Ferramentas de monitoramento de desempenho. 13.2 Análise e otimização de recursos de hardware e software.
+13.3 Identificação e resolução de gargalos de desempenho. 14 Backup e Recuperação de Dados: 14.1 Estratégias de backup e
+recuperação. 14.2 Implementação e gerenciamento de backups. 14.3 Testes de restauração e recuperação de dados.

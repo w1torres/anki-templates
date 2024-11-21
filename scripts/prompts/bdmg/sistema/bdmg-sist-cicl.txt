@@ -1,0 +1,8 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::SISTEMAS, ARQUITETURA DE SOLUÇÕES E DADOS::CICLO DE DESENVOLVIMENTO DE SOFTWARE::Análise de Requisitos. 1.1 Técnicas de elicitação. 1.2
+documentação e validação de requisitos. 1.3 UX, Design Thinking, e ferramentas de prototipação e
+imersão para levantamento de requisitos e descobertas. 2 Modelagem de Sistemas. 2.1 UML, BPMN, e
+outras técnicas de modelagem. 3 Desenvolvimento de Software. 3.1 Programação orientada a objetos.
+3.2 Programação funcional. 3.3 Desenvolvimento web e mobile. 4 Testes de Software. 4.1 Testes unitários,
+de integração, de sistema e de aceitação. 5 Manutenção de Software. 5.1 Gerenciamento de mudanças,
+correções de bugs, e melhorias contínuas. 6 Kanban. 7 SCRUM. 8 DevOps: conceitos, fases e princípios. 9
+DevSecOps. 10 Padrões: GoF e GRASP. 11 Gite Azure Devops. ). 12 Python e Java.

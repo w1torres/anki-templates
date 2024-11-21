@@ -1,0 +1,8 @@
+CONHECIMENTOS ESPECÍFICOS - CFN::TECNOLOGIA DA INFORMAÇÃO::Redes de Computadores::Conceitos de redes de computadores. 3.2 Arquitetura de redes. 3.3 Meios de transmissão.
+3.4 Topologias de redes. 3.5 Modelo OSI. 3.6 Protocolo TCP/IP. 3.7 Equipamentos de rede. 3.8 Protocolos de LAN. 3.9 Endereçamento IP.
+3.10 Roteamento. 3.11 TCP, UDP, ICMP. 3.12 VLAN. 3.12 Interação cliente-servidor. 3.13 Sistema de Nomes de Domínios (DNS). 3.14
+DHCP (Dynamic Host Configuration Protocol). 3.15 Transmissão de arquivos. 3.16 Compartilhamento de arquivos remotos. 3.17 WWW
+(World Wide Web). 3.18 FTP (File Transfer Protocol).
+Hardware::Introdução ao hardware do PC. 4.2 Processadores. 4.3 Barramentos.
+4.4 Memórias. 4.5 Placas-mãe. 4.6 Placas de vídeo. 4.7 Monitores de vídeo. 4.8 Armazenamento de dados. 4.9 Unidades de disco rígido.
+4.10 Montagem de micros. 4.11 Ventilação. 4.12 Alimentação. 4.13 Partição e formatação.

@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::SISTEMAS, ARQUITETURA DE SOLUÇÕES E DADOS::SISTEMAS LEGADOS::Manutenção de Sistemas Legados. 1.1 Técnicas e desafios. 2 Estratégias de
+Migração. 2.1 Planejamento e execução de migração para novos sistemas. 3 Integração de Sistemas. 3.1
+Middleware, APIs, e outras técnicas de integração. 4 Modernização de Sistemas. 4.1 Estratégias para
+modernização e otimização de recursos, em especial sistemas Delphi.

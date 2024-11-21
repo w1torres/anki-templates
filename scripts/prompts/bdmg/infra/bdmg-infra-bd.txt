@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::INFRAESTRUTURA E SEGURANÇA CIBERNÉTICA::BANCO DE DADOS::SGBDs SQL e NOSQL. 2 Modelagens de dados: relacional, multidimensional, NOSQL.
+3 Banco de Dados NoSQL. 3.1 Conceitos e uso de bancos de dados NoSQL (MongoDB, Cassandra). 4
+Administração de Banco de Dados. 4.1 Backup e recuperação. 4.2 Segurança e auditoria de bancos de
+dados.

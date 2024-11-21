@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Big Data e Tecnologias Associadas: 6.1. Conceitos de Big Data: Definição de Big Data: 5Vs (volume, velocidade, variedade, veracidade, valor). Desafios e oportunidades
+no tratamento de grandes volumes de dados. 6.2. Ferramentas para Big Data: Hadoop: arquitetura, HDFS, MapReduce. Spark: processamento distribuído em memória. NoSQL em cenários de Big Data: Cassandra,
+MongoDB. 6.3. Integração de Big Data com Banco de Dados Relacionais: Ferramentas de integração: Apache Sqoop, Apache Kafka. Cenários de uso de bancos de dados híbridos.

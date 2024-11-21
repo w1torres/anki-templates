@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-6-PE::TECNOLOGIA DA INFORMAÇÃO::Processo de Desenvolvimento de Software: ABNT NBR ISO/IEC/IEEE 12207:2021; UML 2.5; BPMN 2.0; Métodos Ágeis (Scrum, Kanban, Extreme Programming - XP); Engenharia de requisitos; Desenvolvimento de software low-code e no-code; Integração das práticas de DevOps e DevSecOps no processo de desenvolvimento.

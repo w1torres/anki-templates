@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::DESENVOLVIMENTO DE SISTEMAS::Segurança da Informação em Sistemas::Práticas de Segurança no Desenvolvimento de Software: Segurança no ciclo de vida de desenvolvimento de software (SDLC).
+Proteção contra vulnerabilidades comuns: injeção de SQL, Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF). Ferramentas de análise de segurança de código: SonarQube, OWASP ZAP. 6.2.
+Criptografia e Autenticação: Conceitos de criptografia simétrica e assimétrica. Protocolo HTTPS, SSL/TLS. Implementação de autenticação e autorização: SSO, OAuth 2.0, OpenID Connect. 6.3. LGPD
+(Lei Geral de Proteção de Dados): Princípios da LGPD aplicados ao desenvolvimento de sistemas. Boas práticas para coleta, armazenamento e processamento de dados pessoais. Auditoria e conformidade com a
+LGPD.

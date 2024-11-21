@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Banco de Dados::Modelagem e Administração de Banco de Dados::Modelagem de dados: modelo entidade-relacionamento, normalização. Diagramas de entidaderelacionamento
+(DER). Administração de banco de dados: backup, restauração, tuning e segurança. Controle de concorrência e integridade dos dados. 2.2. Linguagem SQL: Comandos DDL (Data Definition
+Language) e DML (Data Manipulation Language). Consultas avançadas: JOIN, subconsultas, agregações, funções de janela. Criação e gerenciamento de índices, visões e procedimentos armazenados (stored
+procedures). 2.3. Bancos de Dados Relacionais e Não Relacionais: Conceitos de bancos de dados relacionais (PostgreSQL, MySQL, Oracle). Bancos de dados NoSQL: conceitos e uso (MongoDB,
+Cassandra). Aplicações e casos de uso de diferentes tipos de bancos de dados.

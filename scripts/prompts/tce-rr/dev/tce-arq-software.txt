@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::DESENVOLVIMENTO DE SISTEMAS::Arquitetura de Software::Padrões de Arquitetura: Arquitetura monolítica e arquitetura baseada em microsserviços. Padrões de design de software: Singleton, Factory,
+Observer. Padrões de arquitetura RESTful e SOAP. 5.2. Arquitetura Orientada a Serviços (SOA): Conceitos de SOA: princípios e padrões. Web services e interoperabilidade entre sistemas. SOAP vs.
+REST: diferenças, vantagens e desvantagens. 5.3. Microsserviços: Conceito e arquitetura baseada em microsserviços. Comunicação entre microsserviços: API Gateway, service mesh, mensageria (RabbitMQ,
+Kafka). Ferramentas e práticas para desenvolvimento de microsserviços (Docker, Kubernetes). 5.4. Deploy de aplicações: Continuous Integration e Continuous Delivery (CI/CD). DevOps e DevSecOps:
+Jenkins; Maven.

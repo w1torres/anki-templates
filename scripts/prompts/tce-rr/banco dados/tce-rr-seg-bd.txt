@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Segurança de Banco de Dados: 7.1. Práticas de Segurança de Banco de Dados: Gestão de segurança e políticas de acesso.
+Criptografia de dados em trânsito e em repouso. Mecanismos de autenticação e autorização. 7.2. Auditoria e Compliance em Banco de Dados: Técnicas de auditoria de acessos e manipulação de dados. Ferramentas
+de auditoria: Oracle Audit Vault, Splunk, ELK Stack. Conformidade com a LGPD (Lei Geral de Proteção de Dados) e outras regulamentações.

@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - CFN::TECNOLOGIA DA INFORMAÇÃO::Melhoria Contínua de Processos::Análise de tendências e proposta de melhorias. 11.2 Implementação de boas práticas de manutenção e sustentação. 11.3 Monitoramento e
+otimização de processos de suporte. 
+12 Implantação de Atualizações e Patches: 12.1 Avaliação de atualizações de software e patches de segurança. 12.2 Planejamento e implementação de atualizações e patches. 12.3 Testes e validação pós-implantação.

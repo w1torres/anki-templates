@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Análise de Dados::Conceitos Fundamentais de Análise de Dados: Diferença entre dados estruturados, semiestruturados e não
+estruturados. Qualidade de dados: limpeza, consistência e transformação de dados. Conceitos de Big Data e volume de dados. 3.2. Processamento e Manipulação de Dados: Extração, Transformação e Carga
+(ETL). Ferramentas de ETL (Talend, Apache NiFi, Pentaho). Integração de dados de diferentes fontes.
+3.3. Ferramentas de Análise de Dados: Linguagens de programação para análise de dados: Python (pandas, NumPy) e R. Ferramentas e bibliotecas de visualização de dados: Matplotlib, Seaborn, Plotly, Tableau,
+Power BI. Ferramentas para análise e exploração de dados (Excel avançado, SQL, BI). 3.4. Mineração de Dados (Data Mining): Conceitos e técnicas: clustering, classificação, regressão e associação. Algoritmos
+de mineração de dados: K-means, árvores de decisão, redes neurais, SVM. Análise preditiva e padrões em grandes volumes de dados.

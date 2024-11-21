@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-24/MS::TECNOLOGIA DA INFORMAÇÃO::Banco de Dados: Banco de dados relacional, modelos E-R. Linguagens SQL e PL/SQL. Sistema Gerenciador de Banco de Dados Oracle 11g ou superior, SQL Server e PostgreSQL, H2 database. 
+Conceitos de data warehouse, data mining, OLAP. 

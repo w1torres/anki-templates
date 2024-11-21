@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::ANÁLISE DE DADOS::Governança de TI e Gestão de Projetos::Governança de TI: Princípios e frameworks de governança: COBIT, ITIL. Gerenciamento de serviços de TI: SLA,
+controle de mudanças, incidentes e problemas. 8.2. Gestão de Projetos: Metodologias ágeis (Scrum, Kanban). Planejamento, execução e controle de projetos. Ferramentas de gestão de projetos (Microsoft
+Project, Jira, Trello).

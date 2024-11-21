@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Modelagem de Dados Avançada::Modelagem Relacional: Modelagem conceitual, lógica e física. Diagramas de Entidade-Relacionamento (ER). Análise
+de cardinalidade e dependências funcionais. 3.2. Bancos de Dados Não Relacionais (NoSQL): Diferença entre bancos de dados relacionais e não relacionais. Tipos de NoSQL: chave-valor (Redis), documentos
+(MongoDB), grafos (Neo4j), colunares (Cassandra). Casos de uso e limitações de bancos NoSQL em auditoria.

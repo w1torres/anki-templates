@@ -1,0 +1,13 @@
+CONHECIMENTOS ESPECÍFICOS - BDMG::SISTEMAS, ARQUITETURA DE SOLUÇÕES E DADOS::DATA SCIENCE E INTELIGÊNCIA ARTIFICIAL AVANÇADA::Machine Learning Avançado. 1.1 Algoritmos
+supervisionados, não supervisionados, e deep learning. 2 Redes Neurais. 2.1 Arquiteturas. 2.2
+Treinamento. 2.3 Aplicações. 3 IA Generativa. 3.1 Modelos de linguagem como ChatGPT, GANs, VAEs, e
+outras técnicas de geração de dados. 4 Big Data. 4.1 Ferramentas e técnicas, Hadoop, Spark, e
+processamento de grandes volumes de dados. 5 Ferramentas de Data Science. 5.1 Utilização de
+bibliotecas e frameworks como TensorFlow, PyTorch, Scikit-Learn, e Keras. 6 Fundamentos em Inteligência
+Artificial (IA). 6.1 Conceitos básicos, principais tipos e modelos. 6.2 Principais aplicações em análise de
+dados. 7 Tipos de Aprendizado: Supervisionado, não supervisionado, semi-supervisionado, por reforço,
+por transferência. 8 Grandes Modelos de Linguagem (LLM), IA Generativa. 9 Redes Neurais. 10 CRISP-DM.
+11 MLOps: Gestão de código, treinamento, implantação, monitoramento e versionamento de modelos,
+automação do ciclo de produção. 12 Governança e Ética na IA: Transparência, Responsabilidade,
+Explicabilidade, Privacidade, Segurança, Viés. 13 Python: NumPy, Pandas, SciPy, Statsmodels, Scikit-learn,
+XGBoost , PyTorch, TensorFlow, Keras, NLTK.

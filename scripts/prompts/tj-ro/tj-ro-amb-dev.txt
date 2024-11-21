@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - TJ RO::ANALISTA DE SISTEMAS::Ambientes de desenvolvimento e linguagens de programação::Programação para WEB. Conhecimentos de Python, Java, Kotlin, JavaScript, jQuery, Angular, bootstrap, PHP. 
+Tecnologias e práticas web: HTML, CSS, UX, Ajax. Padrões de frontend: SPA e PWA. Tecnologia de desenvolvimento móvel: Android, IOS, Flutter, React e SQLite.

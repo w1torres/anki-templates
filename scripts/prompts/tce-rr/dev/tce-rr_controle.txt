@@ -1,0 +1,5 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::DESENVOLVIMENTO DE SISTEMAS::Controle e Auditoria de Sistemas::Sistemas de Controle Interno: Conceitos de controle interno em sistemas de informação. Implementação de controles automatizados:
+validações, logs de auditoria, permissões e autenticação. Normas de controle: COSO, COBIT. 4.2. Auditoria de Sistemas: Conceitos de auditoria de sistemas: escopo, objetivos, planejamento e execução.
+Auditoria em ambientes de TI: segurança, disponibilidade, integridade e confidencialidade dos dados. Ferramentas de auditoria de sistemas e logs: Splunk, ELK Stack (Elasticsearch, Logstash, Kibana). 4.3.
+Gestão de Logs e Monitoramento de Sistemas: Logs de auditoria: conceitos, formatos, armazenamento e análise. Ferramentas de monitoramento de sistemas: Zabbix, Nagios, Prometheus. Detecção e mitigação
+de incidentes com base em logs.

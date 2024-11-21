@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::DESENVOLVIMENTO DE SISTEMAS::Testes de Software::Tipos de Testes: Testes unitários, testes de integração, testes funcionais e
+de regressão. Ferramentas para automação de testes: Selenium, JUnit, PyTest. Testes de desempenho e carga: JMeter, Locust. 7.2. Teste de Segurança de Software: Testes de invasão (pentests): conceito e
+aplicação. Ferramentas para teste de segurança: OWASP ZAP, Burp Suite.

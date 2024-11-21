@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - TRT-6-PE::TECNOLOGIA DA INFORMAÇÃO::Programação: Conhecimento profundo das linguagens Java, Python e PHP (versões atuais); Programação orientada a objetos e programação funcional; Princípios SOLID; Padrões de projeto (Design Patterns).

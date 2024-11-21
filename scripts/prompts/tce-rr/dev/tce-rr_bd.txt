@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::DESENVOLVIMENTO DE SISTEMAS::Banco de Dados::Modelagem e Design de Banco de Dados: Conceitos de modelagem de dados: modelo entidade-relacionamento, normalização, cardinalidade. Diagramas de entidade-relacionamento (DER). Modelagem lógica e física de banco de dados. 3.2. Linguagem SQL:
+Comandos de criação e manipulação de dados (DDL e DML). Consultas avançadas: JOIN, agregações, subconsultas. Transações e controle de concorrência. Segurança de banco de dados: permissões de
+usuários, controle de acesso. 3.3. Banco de Dados Relacional e NoSQL: Bancos de dados relacionais: MySQL, PostgreSQL, Oracle. Bancos de dados NoSQL: MongoDB, Redis. Cenários de uso para bancos
+de dados relacionais e NoSQL.

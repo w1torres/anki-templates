@@ -1,0 +1,6 @@
+CONHECIMENTOS ESPECÍFICOS - TCE-RR::BANCO DE DADOS::Administração de Banco de Dados::Instalação e Configuração: Instalação e configuração de sistemas gerenciadores de banco de dados (SGBDs) como PostgreSQL, MySQL, Oracle. Configuração
+de parâmetros de desempenho (tuning). 4.2. Gerenciamento de Usuários e Segurança: Criação de usuários e controle de permissões. Implementação de políticas de segurança: controle de acesso baseado em
+funções (RBAC), criptografia de dados em repouso e em trânsito. Auditoria de acesso e atividades no banco de dados. 4.3. Backup e Recuperação de Dados: Políticas e estratégias de backup: full, incremental
+e diferencial. Técnicas de recuperação de desastres e alta disponibilidade. Ferramentas de backup e recuperação: RMAN (Oracle), pg_dump (PostgreSQL), mysqldump (MySQL). 4.4. Monitoramento e
+Tuning de Performance: Identificação de gargalos de desempenho: uso de CPU, memória, I/O de disco.
+Técnicas de tuning de queries e otimização de índices. Ferramentas de monitoramento: Oracle Enterprise Manager, pgAdmin, MySQL Workbench.
