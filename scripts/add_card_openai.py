@@ -257,6 +257,16 @@ def import_cards_to_anki(instructions, topic, deck_name, model="gpt-4o-mini", te
                         "Dica": hint
                     }
 
+                elif notetype == "Embaralhado":
+                    if len(fields) < 3:
+                        logging.warning(f"Cartão com número insuficiente de colunas. Linha ignorada: {card}")
+                        continue
+                    
+                    question = map(str.strip, fields[1:3])
+                    note["fields"] = {
+                        "Definicao": question
+                    }
+
                 else:
                     logging.warning(f"Tipo de nota desconhecido: {notetype}")
                     continue

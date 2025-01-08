@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - EMBRAPA::ENGENHARIA DE INFRAESTRUTURA E TECNOLOGIA DA INFORMAÇÃO::Segurança cibernética. 9.1 Ferramentas de segurança cibernética. 9.2 Sistemas de proteção, detecção e prevenção de intrusões. 9.3 Virtualização, clusterização e conteinerização. 9.4 Centro de monitoramento de operações. 9.5 Centro de operações em segurança

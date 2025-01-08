@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - EMBRAPA::CIÊNCIA DE DADOS::Aprendizado de máquina e modelagem preditiva. 3.1 Aplicação de algoritmos de aprendizado de máquina em previsão de safras e condições climáticas. 3.2 Modelos de regressão, classificação e clustering aplicados à agricultura.

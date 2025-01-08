@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - EMBRAPA::SISTEMAS DE INFORMAÇÃO::Arquitetura de aplicações de software. 2 Análise de requisitos de projetos de software. 3 Arquitetura de software escalável e manutenível ao longo do tempo. 4 Práticas de segurança de software contra ameaças cibernéticas e vulnerabilidades. 5 Desenvolvimento de software para sistemas embarcados. 6 Sistemas
+de automação. 7 Agricultura 5.0: inteligência artificial, Internet das coisas (IoT) e aprendizado de máquina para desenvolver soluções avançadas.

@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - EMBRAPA::CIÊNCIA DE DADOS::Gestão e integração de dados em agricultura de precisão. 6.1 Estratégias para coleta, armazenamento e integração de dados em sistemas de agricultura de precisão. 6.2 Uso de plataformas e ferramentas de big data para análise e interpretação de dados agrícolas.
