@@ -1,0 +1,163 @@
+<div class="question-box" id="definitionBox">{{Definicao}}</div>
+
+<div class="options-box">
+  <div id="buttonsContainer" class="buttons-container"></div>
+  <button class="undo-button" style="display: none;">Desfazer</button>
+</div>
+<br>
+      <div class="watermark">© 2024 AnkiiCards AI. Todos os direitos reservados.</div>
+
+<script>
+
+// Função para gerar os placeholders de letras do termo
+function getTermPlaceholders(term) {
+  return term.split('').map(() => `<span class="term-placeholder" data-empty="true">🔲</span>`).join(' ');
+}
+
+// Função para embaralhar o termo e criar botões
+function generateCard() {
+  const definitionText = "{{Definicao}}"; // O texto do cartão da frente (a ser substituído no Anki)
+
+  // Usando regex para extrair o conteúdo dentro de []
+  const regex = /\[([^\]]+)\]/;
+  const match = definitionText.match(regex);
+
+  let termText = ""; // O termo a ser embaralhado
+
+  if (match && match[1]) {
+    termText = match[1]; // Ex: "Big Data"
+  }
+
+  // Substitui o termo na definição por placeholders (🔲)
+  const displayDefinition = definitionText.replace(regex, getTermPlaceholders(termText));
+  document.querySelector(".question-box").innerHTML = displayDefinition; // Exibe a definição com os placeholders
+
+  const buttonsContainer = document.getElementById("buttonsContainer");
+
+  // Embaralha o termo e cria os botões
+  const shuffledOptions = [...termText].sort(() => Math.random() - 0.5);
+
+  shuffledOptions.forEach((char, index) => {
+    const button = document.createElement("button");
+    button.textContent = char;
+    button.className = "option-button";
+    button.dataset.char = char;
+
+    // Ao clicar, preenche a posição do placeholder
+    button.addEventListener("click", () => {
+      // Encontra o próximo placeholder vazio
+      const emptySlot = document.querySelector(".term-placeholder[data-empty='true']");
+      if (emptySlot) {
+        console.log(`Preenchendo o placeholder com a letra: ${char}`); // Verifica a letra sendo preenchida
+        emptySlot.textContent = char; // Preenche a letra
+        emptySlot.style.color = "blue"; // A cor da letra fica azul
+        emptySlot.dataset.empty = "false"; // Marca o placeholder como preenchido
+        button.disabled = true; // Desabilita o botão após o clique
+        button.style.display = "none"; // Esconde o botão após o clique
+      }
+
+      // Verifica se todos os espaços estão preenchidos
+      checkAnswer(termText);
+    });
+
+    buttonsContainer.appendChild(button);
+  });
+
+}
+
+// Função para verificar se o termo foi preenchido corretamente
+function checkAnswer(correctAnswer) {
+  const termPlaceholders = document.querySelectorAll(".term-placeholder");
+  const userInput = [...termPlaceholders].map(placeholder => placeholder.textContent).join('');
+  
+  // Verifica o estado dos placeholders
+  console.log("Estado dos placeholders:", [...termPlaceholders].map(placeholder => placeholder.textContent).join(''));
+
+  // Quando todos os placeholders são preenchidos
+  if ([...termPlaceholders].every(placeholder => placeholder.textContent !== '🔲')) {
+    const feedback = document.createElement("div");
+    feedback.className = "feedback-box";
+
+    if (userInput === correctAnswer) {
+      feedback.textContent = "Correto! 🎉";
+      feedback.style.color = "green";
+    } else {
+      feedback.textContent = `Incorreto! O termo correto é: "${correctAnswer}"`;
+      feedback.style.color = "red";
+    }
+
+    document.body.appendChild(feedback);
+
+    setTimeout(() => {
+      resetCard(feedback);
+    }, 3000);
+  }
+}
+
+// Função para desfazer a última letra preenchida
+function undoLastLetter() {
+  // Encontra o último placeholder preenchido
+  const filledPlaceholders = document.querySelectorAll(".term-placeholder:not([data-empty='true'])");
+  console.log(filledPlaceholders); // Verifique se a lista de placeholders preenchidos está correta
+  // Se houver placeholders preenchidos
+  if (filledPlaceholders.length > 0) {
+    const lastFilled = filledPlaceholders[filledPlaceholders.length - 1];
+    const charToUndo = lastFilled.textContent; // Captura o caractere preenchido antes de apagá-lo
+
+    lastFilled.textContent = '🔲'; // Substitui o preenchimento por um placeholder vazio
+    lastFilled.dataset.empty = 'true'; // Marca o placeholder como vazio novamente
+
+    // Encontre o botão correspondente e reabilite-o
+    const lastButton = document.querySelector(`.option-button[data-char="${charToUndo}"]`);
+    console.log("Botão: ", lastButton)
+    if (lastButton) {
+      lastButton.disabled = false; // Reabilita o botão
+      lastButton.style.display = "inline-block"; // Torna o botão visível novamente
+    }
+  }
+
+  // Verifica se há mais placeholders preenchidos
+  const undoButton = document.querySelector(".undo-button");
+  const remainingFilledPlaceholders = document.querySelectorAll(".term-placeholder:not([data-empty='true'])");
+
+  // Se não houver mais preenchimentos, esconde o botão "Desfazer"
+  if (remainingFilledPlaceholders.length === 1) {
+    undoButton.style.display = "true"; // Esconde o botão "Desfazer"
+  }
+}
+
+// Função para exibir o botão "Desfazer"
+function showUndoButton() {
+  const undoButton = document.querySelector('.undo-button'); // Seleciona o botão "Desfazer"
+  
+  // Verifica se o botão existe
+  if (undoButton) {
+    // Exibe o botão "Desfazer"
+    undoButton.style.display = 'inline-block';
+    undoButton.addEventListener('click', undoLastLetter); // Adiciona o evento de clique
+  } else {
+    console.warn('Botão "Desfazer" não encontrado!');
+  }
+}
+
+// Função para resetar o cartão após a verificação
+function resetCard(feedback) {
+  const termPlaceholders = document.querySelectorAll(".term-placeholder");
+  const optionButtons = document.querySelectorAll(".option-button");
+
+  termPlaceholders.forEach(placeholder => placeholder.textContent = '🔲'); // Reseta os placeholders
+  termPlaceholders.forEach(placeholder => placeholder.style.color = "black"); // Reseta a cor da letra
+  termPlaceholders.forEach(placeholder => placeholder.dataset.empty = "true"); // Marca os placeholders como vazios
+  optionButtons.forEach(button => {
+    button.disabled = false; // Reabilita os botões
+    button.style.display = "inline-block"; // Exibe os botões novamente
+  });
+
+  feedback.remove();
+}
+
+// Inicializa o cartão
+generateCard();
+showUndoButton();
+</script>
+

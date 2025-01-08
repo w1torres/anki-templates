@@ -1,0 +1,376 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Estilos do cartão */
+  .card {
+    background: linear-gradient(to bottom, #f1f6fc, #cbe3fa); /* Azul claro degradê estilo céu */
+    min-height: 100vh; /* Garante que a altura do cartão ocupe toda a tela */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative; /* Para garantir que os botões sejam posicionados corretamente */
+    background-color: #ffffff; /* Fundo branco da área do cartão */
+    border-radius: 15px; /* Bordas arredondadas para todo o cartão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para criar efeito de alto relevo */
+  }
+  
+  /* Caixa de perguntas */
+  .question-box {
+    font-size: 20px;
+    background: linear-gradient(to bottom, #f1f6fc, #cbe3fa); /* Azul claro degradê estilo céu */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Caixa de opções */
+  .options-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .option-button {
+    padding: 10px 15px;
+    font-size: 20px;
+    border: 2px solid #007bff;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .option-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .option-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Feedback após a seleção */
+  .feedback-box {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Placeholders para os termos */
+  .term-placeholder {
+    display: inline-block;
+    margin-right: 0.5px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  /* Botão desfazer */
+  .undo-button {
+    display: none; /* Inicialmente oculto */
+    background-color: #f08b92;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* Estilo para quando o botão estiver visível */
+  .undo-button[style="display: inline-block;"] {
+    display: inline-block;
+  }
+  
+  /* Estilos gerais para os itens */
+  .item {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #bcf8fade;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  .answer-buttons {
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .answer {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #25defbd4;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #e5edf8, #adeaf6); /* Corrigido */
+    color: #050505;
+    cursor: pointer;
+    text-align: center; /* Centraliza o texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: background 0.3s ease, transform 0.2s ease; /* Adiciona efeito de transição */
+  }
+  
+  .answer:hover {
+    background: linear-gradient(to bottom, #adeaf6, #e5edf8); /* Inverte o gradiente ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o tamanho */
+    border-color: #1bcfe5; /* Destaca a borda */
+  }
+  
+  .selected {
+    background-color: #28a745;
+  }
+  
+  .correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+  }
+  
+  .incorrect {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  /* Estilo para o modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(164, 165, 165, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(63, 231, 91, 0.2);
+  }
+  
+  /* Estilo para o botão de fechar */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o texto dentro do modal */
+  #modalContent {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Direitos e Contato */
+  .erro {
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .erro p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  
+  .report-link {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .report-link:hover {
+    text-decoration: underline;
+    color: #c62828;
+  }
+  
+  .direito {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #1e88e5;
+    line-height: 1.5;
+  }
+  
+  .creator-link, .website-link, .copyright-link {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .creator-link:hover, .website-link:hover, .copyright-link:hover {
+    color: #1565c0;
+    text-decoration: underline;
+  }
+  
+  .direito p {
+    margin: 5px 0;
+  }
+  
+  .direito a {
+    margin-right: 10px;
+  }
+  
+  .watermark {
+    position: flex;
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.758);
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  /* Estilo para o modal em si (sobre o fundo da página) */
+  .modal {
+    display: none; /* Inicialmente escondido */
+    position: fixed;
+    z-index: 1000; /* Garante que o modal esteja acima dos outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Adiciona rolagem se necessário */
+    background-color: rgba(164, 165, 165, 0.4); /* Fundo semi-transparente */
+  }
+  
+  modal-header #modalTitle {
+    font-size: 18px;
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+  }
+  
+  /* Estilo para o conteúdo do modal */
+  .modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Centraliza o modal na tela */
+    padding: 20px;
+    border: 1px solid #ddd; /* Cor da borda */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 80%; /* Largura do modal */
+    max-width: 600px; /* Largura máxima do modal */
+    box-shadow: 0 4px 8px rgba(63, 231, 91, 0.2); /* Sombra suave */
+  }
+  
+  /* Estilo para o botão de fechar */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  /* Muda a cor do botão de fechar ao passar o mouse */
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Estilo para o texto dentro do modal */
+  #modalContent {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /*Direitos e contato nos cards*/
+  
+  .erro {
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .erro p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  
+  .report-link {
+    color: #d32f2f;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .report-link:hover {
+    text-decoration: underline;
+    color: #c62828;
+  }
+  
+  .direito {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #1e88e5;
+    line-height: 1.5;
+  }
+  
+  .creator-link, .website-link, .copyright-link {
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .creator-link:hover, .website-link:hover, .copyright-link:hover {
+    color: #1565c0;
+    text-decoration: underline;
+  }
+  
+  .direito p {
+    margin: 5px 0;
+  }
+  
+  .direito a {
+    margin-right: 10px;
+  }
+  
+  .watermark {
+    position: flex; /* Permite que a marca d'água seja posicionada em relação ao card */
+    bottom: 10px; /* Distância do fundo */
+    left: 10px; /* Distância da esquerda ou use right: 10px; para a direita */
+    font-size: 15px; /* Tamanho da fonte */
+    color: rgba(0, 0, 0, 0.758); /* Cor e opacidade da marca d'água */
+    opacity: 0.2; /* Ajuste a opacidade conforme necessário */
+    pointer-events: none; /* Para que a marca d'água não interfira com a interação do usuário */
+    z-index: -1; /* Coloca a marca d'água atrás do conteúdo */
+  }
