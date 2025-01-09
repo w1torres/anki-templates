@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Computação em nuvem::Fundamentos. Características. Modelos de Serviços. Modelos de implantação. Desenvolvimento para dispositivos móveis - Android e IOS. 
+Banco de dados::Modelagem de dados (conceitual, lógica e física). Projeto e modelagem de banco de dados relacional. Modelo e Diagrama Entidade Relacionamento. Notação Crow's foot (Pé de Galinha). Normalização das estruturas de dados. Integridade referencial. Metadados. Álgebra relacional. Linguagem de consulta estruturada (SQL). Linguagens de definição
+(DDL), manipulação (DML), controle (DCL) e transação (DTL) de dados em SGBDs relacionais. SGBDs Oracle, MySQL e PostgreSQL. Linguagens procedurais de SGBDs Oracle,
+MySQL e PostgreSQL. PL/SQL: conceitos e comandos. Conhecimento da ferramenta SQL Navigator.

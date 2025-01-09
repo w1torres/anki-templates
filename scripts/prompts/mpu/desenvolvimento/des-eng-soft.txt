@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Engenharia de software::Ciclo de vida de sistemas, modelos, metodologias, técnicas e ferramentas de análise e projeto de sistemas (paradigma estruturado e paradigma orientado a objetos). Desenho de arquitetura de soluções. Usabilidade de software: User Experience (UX), design de User Interface (UI) e métodos para avaliação de usabilidade, WCAG (World Content Accessibility Guide), eMAG
+(Modelo de Acessibilidade em Governo Eletrônico).

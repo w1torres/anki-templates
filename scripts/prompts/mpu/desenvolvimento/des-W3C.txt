@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Recomendações W3C::HTML5, CSS3, UX, Ajax, frameworks (ExtJS, Angular, Angular JS, Ionic e React). 
+Linguagens de programação, frameworks e toolkits. JavaScript, TypeScript, Java, JEE, Angular, jQuery, Vue, Bootstrap, npm, Maven, React.JS, ReactNative, Spring, SpringBoot, Spring Cloud, Laravel,
+Django, Hibernate, JPA, JDBC, JBossSeam, Junit, GraphQL, Python (NumPy, Pandas, SciPy, Matplotlib), PHP, Swagger, Oracle APEX. Padrões XML, UDDI, WSDL, SOAP e JSON.

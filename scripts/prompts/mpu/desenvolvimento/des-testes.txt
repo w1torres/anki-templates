@@ -1,0 +1,1 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Testes de software::Planejamento, estratégias, métodos e técnicas; testes automatizados. Test Driven Development (TDD). Abordagem Domain-Driven Design (DDD). Qualidade de software: processos, atributos, medições, métricas de qualidade. CMMI v3 e [MPS.BR](http://mps.br/).

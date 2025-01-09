@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Gerenciamento de projetos::Conceitos; áreas de conhecimento; projetos; programas; portfólio. Tipos de abordagem: tradicional, híbrida e ágil. Biblioteca ITIL versão 4. UML 2.5.1. processos de software: atividades, reutilização, prototipação, processo unificado,
+Rational Unified Process (RUP), processo incremental, processos e métodos ágeis Extreme Programming - XP, SCRUM, Kanban. DevSecOps.

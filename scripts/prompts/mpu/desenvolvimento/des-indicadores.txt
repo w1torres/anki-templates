@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Metodologia de indicadores::Balanced Scorecard (BSC); Objective and Key Results (OKR); Key Performance Indicator
+(KPI). Metodologia de ponto de função e story points. Software Non-Functional Assessment Process (SNAP). Engenharia de requisitos: tipificação, especificação, elicitação, análise,
+validação e gerenciamento. COBIT 2019 framework. Gestão de projetos (PMBOK 7ª Edição).

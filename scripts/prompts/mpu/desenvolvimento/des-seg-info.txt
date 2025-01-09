@@ -1,0 +1,3 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Segurança da informação::Políticas de segurança da informação. Princípios de desenvolvimento, seguro de aplicações. Confiabilidade, integridade e disponibilidade.
+Normas ABNT NBR ISO/IEC 27001-2022 e ABNT NBR ISO/IEC 27002-2022. Serviços de autenticação; SSO Single Sign-On; Keycloak; OpenID Connect (OIDC); Protocolo OAuth2
+(RFC 6749); Lei nº 13.709/2018 e suas alterações (Lei Geral de Proteção de Dados Pessoais LGPD)

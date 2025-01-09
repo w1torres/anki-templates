@@ -1,0 +1,4 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Soluções de suporte à decisão::Conceitos, fundamentos, características, técnicas. Business Intelligence (BI). Data Warehouse, Data Mart, ODS, Data Mining, Data Lake, ETL,
+OLAP e Repositório de Metadados. Modelagem multidimensional: básica e avançada. Metodologia CRISP-DM. Conhecimento das ferramentas QlikView, Power BI e Microstrategy. Conhecimento das ferramentas Flyway e Pentaho. Conhecimento das
+ferramentas Powercenter e Powerdesigner. Data lakes e soluções para big data. Técnicas de integração e ingestão de dados (ETL/ELT, transferência de arquivos e integração via Base de Dados). Bancos de dados NoSQL. MongoDB. GraphDB. 
+Inteligência artificial::Conceitos e tecnologias de IA, engenharia de prompts, aprendizado de máquina, deep learning, chatbots, Large Language Models (LLMs), Retrieval-Augmented Generation ( R AG ) .

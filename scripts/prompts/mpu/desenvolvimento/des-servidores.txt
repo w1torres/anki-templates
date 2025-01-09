@@ -1,0 +1,2 @@
+CONHECIMENTOS ESPECÍFICOS - MPU::ANALISTA DE SISTEMAS::Conhecimento das ferramentas de wireframe::Balsamiq, Figma e Pencil. Conceito de servidores de armazenamento de objetos. Conhecimentos das plataformas Jackrabbit (JCR), MinIO, Elastic Stack, Apache Kafka e RabbitMQ. 
+Conhecimento de servidores web::Nginx e Apache. Conhecimento de servidores de aplicação Java Platform Enterprise Edition (JEE): Oracle WebLogic Server, JBoss, Tomcat, Node.js e Wildfly. Robotic Process Automation (RPA).
