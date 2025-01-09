@@ -2,8 +2,11 @@
 
 <div class="options-box">
   <div id="buttonsContainer" class="buttons-container"></div>
-  <button class="undo-button" style="display: none;">Desfazer</button>
 </div>
+
+<br>
+<button class="undo-button" style="display: none;">Desfazer</button>
+
 <br>
       <div class="watermark">© 2024 AnkiiCards AI. Todos os direitos reservados.</div>
 
@@ -27,6 +30,9 @@ function generateCard() {
   if (match && match[1]) {
     termText = match[1]; // Ex: "Big Data"
   }
+
+  // Armazenar o termo no sessionStorage para ser acessado no verso
+  sessionStorage.setItem("termText", termText);
 
   // Substitui o termo na definição por placeholders (🔲)
   const displayDefinition = definitionText.replace(regex, getTermPlaceholders(termText));
@@ -140,7 +146,7 @@ function showUndoButton() {
   }
 }
 
-// Função para resetar o cartão após a verificação
+/* // Função para resetar o cartão após a verificação
 function resetCard(feedback) {
   const termPlaceholders = document.querySelectorAll(".term-placeholder");
   const optionButtons = document.querySelectorAll(".option-button");
@@ -154,7 +160,7 @@ function resetCard(feedback) {
   });
 
   feedback.remove();
-}
+} */
 
 // Inicializa o cartão
 generateCard();

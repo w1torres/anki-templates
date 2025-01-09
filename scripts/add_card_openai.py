@@ -258,11 +258,11 @@ def import_cards_to_anki(instructions, topic, deck_name, model="gpt-4o-mini", te
                     }
 
                 elif notetype == "Embaralhado":
-                    if len(fields) < 3:
+                    if len(fields) < 2:
                         logging.warning(f"Cartão com número insuficiente de colunas. Linha ignorada: {card}")
                         continue
                     
-                    question = map(str.strip, fields[1:3])
+                    question, = map(str.strip, fields[1:2])
                     note["fields"] = {
                         "Definicao": question
                     }
@@ -317,7 +317,7 @@ def train_assistant():
     task_queue.put((test_topic, test_deck_name))
     
     # Chama a função que processa as tarefas na fila
-    start_import_thread()  # Processa a fila de tarefas
+    start_import_thread(task_queue)  # Processa a fila de tarefas
 
     # Aguarda que todas as tarefas sejam concluídas antes de continuar
     task_queue.join()  # Aguarda a fila ser processada

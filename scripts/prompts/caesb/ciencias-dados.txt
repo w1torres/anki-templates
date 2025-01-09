@@ -1,0 +1,18 @@
+CONHECIMENTOS ESPECÍFICOS - CAESB::ANALISTA DE SISTEMAS::CIÊNCIA DE DADOS::Manipulação, tratamento e visualização de dados. 1.1 Técnicas de visualização de
+dados. 1.2 Lidando com valores faltantes. 1.3 Lidando com dados categóricos. 1.4 Normalização numérica.
+1.5 Detecção e tratamento de outliers. 1.6 Manipulação de dataframes com Python Pandas: leitura de dados
+tabulares, seleção de linhas e colunas, agregação de dados, preenchimento de valores faltantes, remoção de
+duplicados, junção de dataframes. 2 Aprendizado supervisionado: Regressão e Classificação. 2.1 Métricas de
+avaliação. 2.2 Overfitting e underfitting de modelos. 2.3 Regularização. 2.4 Seleção de modelos: Erro de
+Generalização. 2.5 Validação Cruzada. 2.6 Conjuntos de Treino, Validação e Teste. 2.7 Trade off entre Variância
+e Viés. 2.8 Algoritmos: Regressão Linear e Regressão Logística. 2.9 Árvores de decisão e random forests. 2.10
+Máquina de suporte de vetores. 2.11 Naive Bayes. 2.12 K‐NN. 2.13 Ensembles. 2.14 Aprendizado
+supervisionado com Python scikit‐learn. 2.15 Conceitos de otimização de hiperparâmetros. 3 Aprendizado
+não supervisionado. 3.1 Redução de dimensionalidade: PCA. 3.2 Agrupamento K‐Means. 3.3 Mistura de
+Gaussianas. 3.4 Agrupamento Hierárquico. 3.5 Regras de associação. 3.6 Aprendizado não supervisionado
+com Python scikit‐learn. 4 Redes neurais artificiais. 4.1 Conceitos Básicos em Redes Neurais Artificiais:
+Definições e Arquitetura. 4.2 Funções de Ativação. 4.3 Otimização de Redes Neurais Artificiais: método do
+gradiente, método do gradiente estocástico, algoritmo backpropagation, métodos de inicialização dos pesos,
+Vanishing Gradients. 4.4 Métodos de regularização: penalização com normas L1 e L2, Dropout e Early
+Stopping. 4.5 Definições básicas de Redes Neurais Convolucionais. 4.6 Definições básicas de Redes Neurais
+Recorrentes. 4.7 Redes neurais com Python: treino de modelos com Keras e Pytorch.

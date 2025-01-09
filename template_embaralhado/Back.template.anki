@@ -1,5 +1,5 @@
 <div class="answer">
-  O termo correto é: 
+  O termo correto é: <span id="correctTerm"></span>
 </div>
 
 <div class="erro">
@@ -11,3 +11,24 @@
           <p><a href="https://www.copyrightservice.net/pt/copyright_notice" title="Avisos de direitos autorais" class="copyright-link">&copy;Copyright </a></p>
           <div class="watermark">© 2024 AnkiiCards AI. Todos os direitos reservados.</div>
       </div>
+
+<script>
+// Função para exibir o termo no verso
+function showTermOnBack() {
+  const correctTermElement = document.getElementById("correctTerm");
+
+  // Recupera o termo armazenado no sessionStorage
+  const termText = sessionStorage.getItem("termText");
+
+  // Verifica se o termo foi encontrado
+  if (termText) {
+    // Exibe o termo correto no verso do cartão
+    correctTermElement.textContent = termText;
+  } else {
+    console.error("Erro: 'termText' não encontrado no sessionStorage.");
+  }
+}
+
+// Este código deve ser chamado quando o conteúdo do cartão da frente for carregado
+showTermOnBack();
+</script>
