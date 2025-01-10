@@ -267,6 +267,17 @@ def import_cards_to_anki(instructions, topic, deck_name, model="gpt-4o-mini", te
                         "Definicao": question
                     }
 
+                elif notetype == "Digite a Resposta":
+                    if len(fields) < 3:
+                        logging.warning(f"Cartão com número insuficiente de colunas. Linha ignorada: {card}")
+                        continue
+                    
+                    question, answer = map(str.strip, fields[1:3])
+                    note["fields"] = {
+                        "Definicao": question,
+                        "Digite a Resposta": answer
+                    }
+
                 else:
                     logging.warning(f"Tipo de nota desconhecido: {notetype}")
                     continue
