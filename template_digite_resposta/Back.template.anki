@@ -1,0 +1,32 @@
+
+<div class="response-container">
+    <div class="answer">{{Definicao}}</div>
+    <div class="user-response">
+            <strong>Sua resposta:</strong><br>
+            {{type:Digite a Resposta}}
+        </div>
+
+    <div class="erro">
+            <p>Encontrou algum erro? <a href="https://www.ankiicards.com/sugestoes-e-correcoes" class="report-link">Clique aqui para nos informar</a></p>
+        </div><br>
+
+        <div class="direito">
+            <p><a href="https://www.ankiicards.com" class="website-link">Visite nosso site: www.ankiicards.com</a></p>
+            <p><a href="https://www.copyrightservice.net/pt/copyright_notice" title="Avisos de direitos autorais" class="copyright-link">&copy;Copyright </a></p>
+            <div class="watermark">© 2024 AnkiiCards AI. Todos os direitos reservados.</div>
+        </div>
+</div>
+
+<script>
+   function destacarTexto(){
+   // Texto com colchetes
+    const definicao = "{{Definicao}}";
+    
+    // Remover os colchetes e exibir o texto sem eles
+    const textoDestacado = definicao.replace(/\[([^\]]+)\]/g, '<span class="highlight">$1</span>');
+    
+    // Substituir o conteúdo dentro da div com o texto sem colchetes
+    document.querySelector('.answer').innerHTML = textoDestacado;
+}
+destacarTexto();
+</script>

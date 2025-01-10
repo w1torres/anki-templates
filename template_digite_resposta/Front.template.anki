@@ -1,0 +1,38 @@
+<div class="question-box" id="definitionbox">
+{{Definicao}}
+</div>
+
+<br>
+{{type:Digite a Resposta}}
+
+<br>
+      <div class="watermark">© 2024 AnkiiCards AI. Todos os direitos reservados.</div>
+
+
+<script>
+// Função para gerar os placeholders de letras do termo
+function getTermPlaceholders(term) {
+  return term.split('').map(() => `<span class="term-placeholder" data-empty="true">🔲</span>`).join(' ');
+}
+
+// Função para embaralhar o termo e criar botões
+function generateCard() {
+  const definitionText = "{{Definicao}}"; // O texto do cartão da frente (a ser substituído no Anki)
+
+  // Usando regex para extrair o conteúdo dentro de []
+  const regex = /\[([^\]]+)\]/;
+  const match = definitionText.match(regex);
+
+  let termText = ""; // O termo a ser embaralhado
+
+  if (match && match[1]) {
+    termText = match[1]; // Ex: "Big Data"
+  }
+
+  // Substitui o termo na definição por placeholders (🔲)
+  const displayDefinition = definitionText.replace(regex, getTermPlaceholders(termText));
+  document.querySelector(".question-box").innerHTML = displayDefinition; // Exibe a definição com os placeholders
+}
+
+generateCard();
+</script>
